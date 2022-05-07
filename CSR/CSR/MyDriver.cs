@@ -10,7 +10,7 @@ namespace SeleniumAutomation
     public class MyDriver
     {
         public WebDriver Driver;
-
+        //See changes in git after adding this comment. 
         public IWebElement GetWebElement(TestCases testCases)
         {
             if ("id".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
