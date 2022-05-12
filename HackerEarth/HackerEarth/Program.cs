@@ -41,4 +41,36 @@ if (n % 2 == 0 && n > 20)
 
 //Complete the stub code provided in your editor to print whether or not n is weird. Done
 
+/*Problem 3 Write a method that accepts a string as a parameter and check that string to see if it is a palindrome.
+Return boolean true if it is a palindrome, false if it is not*/
+
+//Check to see if a string is a palindrome(Words that are spelled the same way frontwords & backwards like "lol")
+{
+    bool wordResult;
+    wordResult = word("what");
+    Console.WriteLine(wordResult);
+    
+}
+
+static bool word(string wrd)
+
+{
+    //int length = wrd.Length / 2;
+    for (int i = 0; i < wrd.Length; i++)
+    {
+        if (wrd[i] != (wrd[wrd.Length - 1 - i])) //standard practice to use equals in C#
+        {
+            return false;
+        }
+    }
+    return true;
+
+
+}
+
+
+
+
+
+
 
