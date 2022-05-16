@@ -14,7 +14,7 @@ Console.WriteLine("Hello, C#!");
 //Problem 2
 //Given an integer,n , perform the following conditional actions:
 
-//If n is odd, print Weird -Done
+//If n is odd, print Weird // Think using the condition 
 
 int n = 13;
 if (n % 2 == 1)
@@ -47,7 +47,15 @@ Return boolean true if it is a palindrome, false if it is not*/
 //Check to see if a string is a palindrome(Words that are spelled the same way frontwords & backwards like "lol")
 {
     bool wordResult;
-    wordResult = word("what");
+    wordResult = word("Utah");
+    /*
+    string checkPalindrome = "labbal";
+    Console.WriteLine(checkPalindrome[0]);
+    Console.WriteLine(checkPalindrome[checkPalindrome.Length-1-0]);
+    Console.WriteLine(checkPalindrome[1]);
+    Console.WriteLine(checkPalindrome[checkPalindrome.Length-1-1]);
+    Console.WriteLine(checkPalindrome[2]);
+    Console.WriteLine(checkPalindrome[checkPalindrome.Length - 1 - 2]);*/
     Console.WriteLine(wordResult);
     
 }
@@ -56,7 +64,7 @@ static bool word(string wrd)
 
 {
     //int length = wrd.Length / 2;
-    for (int i = 0; i < wrd.Length; i++)
+    for (int i = 0; i < wrd.Length/2; i++)
     {
         if (wrd[i] != (wrd[wrd.Length - 1 - i])) //standard practice to use equals in C#
         {
@@ -67,6 +75,7 @@ static bool word(string wrd)
 
 
 }
+
 
 
 

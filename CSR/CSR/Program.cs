@@ -21,7 +21,7 @@ namespace SeleniumAutomation
             MyDriver myDriver = new MyDriver();
             Readxlxscs rd = new Readxlxscs();
 
-            rd.OpenExcel("C:\\Driver\\DataTest.xlsx");
+            rd.OpenExcel("C:\\SharpernCSharp\\MorePractice\\CSR\\DataTest.xlsx");
             rd.ReadSheet("Sheet1");
             var lstTestCases = rd.GetTestCases();
             for (int i = 0; i < lstTestCases.Count; i++)
