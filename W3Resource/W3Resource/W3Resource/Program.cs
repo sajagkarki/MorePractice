@@ -93,31 +93,96 @@
 //    Console.WriteLine(number*i);
 //}
 
-//Write a C# Sharp program that takes four numbers as input to calculate and print the average.
+//Exercise 9 Write a C# Sharp program that takes four numbers as input to calculate and print the average.
 
-int input1;
-int input2;
-int input3;
-int input4;
-int average; 
+//int input1;
+//int input2;
+//int input3;
+//int input4;
+//int average; 
 
-Console.WriteLine("Enter first number");
-input1 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter first number");
+//input1 = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Enter second number");
-input2 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter second number");
+//input2 = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Enter third number");
-input3 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter third number");
+//input3 = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Enter fourth number");
-input4 = int.Parse(Console.ReadLine());
+//Console.WriteLine("Enter fourth number");
+//input4 = int.Parse(Console.ReadLine());
 
-average = (input1 + input2 + input3 + input4) / 2; 
+//average = (input1 + input2 + input3 + input4) / 2; 
 
-Console.WriteLine("Average of the numbuers inputed is " + average); 
-
-
+//Console.WriteLine("Average of the numbuers inputed is " + average); 
 
 
+// Exercise 10 Write a C# Sharp program to that takes three numbers(x,y,z) as input and print the output of (x+y).z and x.y + y.z.
 
+//int x = 1;
+//int y = 2;
+//int z = 5;
+
+//int Output1 = (x + y)*z;
+//int Output2 = (x * y) + (y*z);
+//Console.WriteLine(Output1);
+//Console.WriteLine(Output2);    
+
+// Exercise 11 Write a C# Sharp program that takes an age (for example 20) as input and prints something as "You look older than 20".
+
+//Console.WriteLine("Enter your age ");
+//int age = int.Parse(Console.ReadLine());
+
+//Console.WriteLine("You look older than "+ age);
+
+//Exercise 12  Write a C# program that takes a number as input and display it four times in a row (separated by blank spaces),
+//and then four times in the next row, with no separation.
+//You should do it two times: Use Console.Write and then use {0}.
+
+
+//int exercise12=2; 
+
+//for (int i = 1; i <=4; i++)
+//{
+//    Console.Write(exercise12 + " ");
+//}
+
+//Console.WriteLine();    
+
+//for (int i = 0; i <= 4; i++)
+//{
+//    Console.Write(exercise12);
+//}
+
+//Exercise 13 Write a C# program that takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit.
+
+int exercise13;
+Console.WriteLine("Enter a number");
+
+exercise13 = int.Parse(Console.ReadLine());
+Console.WriteLine();
+
+for (int i = 1; i <= 3; i++)
+{
+    Console.Write(exercise13 + " ");
+}
+for (int i = 1; i <= 4; i++)
+{
+    Console.WriteLine(exercise13);
+}
+for (int i = 1; i <= 3; i++)
+{
+    Console.Write(exercise13 + " ");
+}
+
+//int x;
+
+//Console.Write("Enter a number: ");
+//x = Convert.ToInt32(Console.ReadLine());
+
+//Console.WriteLine("{0}{0}{0}", x);
+//Console.WriteLine("{0} {0}", x);
+//Console.WriteLine("{0} {0}", x);
+//Console.WriteLine("{0} {0}", x);
+//Console.WriteLine("{0}{0}{0}", x);
