@@ -1,0 +1,52 @@
+{
+	"Mill Anomalies Page - Test 1": {
+		"TestCase_0": {
+			"Name": "includeClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeReportDepth_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "includeDepth_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "addRepairDigInfoToDesc_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Classification, COLON, BEFORE, Depth, AT, AFTER, Dig/Repair Info, COMMA, BEFORE_AND_AFTER",
+			"DB_Value": "Classification, COLON, BEFORE, Depth, AT, AFTER, Dig/Repair Info, COMMA, BEFORE_AND_AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

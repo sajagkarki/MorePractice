@@ -1,0 +1,22 @@
+{
+	"DeformationAnomalies Page - Test 1": {
+		"TestCase_0": {
+			"Name": "includeReport_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/commons-lang3-3.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/gson-2.8.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/guava-25.0-jre.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/java-client-7.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/json-20210307.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/json-simple-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/okhttp-3.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/okio-1.14.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/selenium-api-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/selenium-java-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/selenium-remote-driver-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/commons-io-2.8.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="/JarFiles/client-combined-3.141.59.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

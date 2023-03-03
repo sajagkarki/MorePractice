@@ -1,0 +1,51 @@
+{
+	"InputName": "PossibleCompositeRepairs",
+	"FileCounter": 2,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Salutations",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Continent",
+		"dragListSeparatorValues": [
+			3,
+			4,
+			5
+		],
+		"dragListSeparatorOptions": [
+			2,
+			3,
+			0
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"propertyWithUpdates_cl": [
+			"Composite Length",
+			"Repair/Dig",
+			"Name"
+		]
+	}
+}

@@ -1,0 +1,370 @@
+{
+	"Groups Page - Test 2": {
+		"TestCase_0": {
+			"Name": "pressureAlgorithms_s",
+			"Test_Value": "ASME B31G Modified",
+			"DB_Value": "ASME B31G Modified",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "groupingRules_s",
+			"Test_Value": "6X Wall (cir), 3x Wall (axial)",
+			"DB_Value": "6X Wall (cir), 3x Wall (axial)",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "pitLengthType_s",
+			"Test_Value": "PIT_LENGTH_SIGNAL",
+			"DB_Value": "PIT_LENGTH_SIGNAL",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "includingAcrossWelds_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeAcrossWT_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "groupInternalExternal_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "effectiveArea_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "smartEAM_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "addRepairDigInfoToDesc_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "pitTypesToGroup_ms",
+			"Test_Value": "False, False, False, False, False",
+			"DB_Value": "False, False, False, False, False",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "pressureAlgorithms_mds_s",
+			"Test_Value": "ASME B31G Modified",
+			"DB_Value": "ASME B31G Modified",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "groupingRules_mds_s",
+			"Test_Value": "6X Wall (cir), 3x Wall (axial)",
+			"DB_Value": "6X Wall (cir), 3x Wall (axial)",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "pitLengthType_mds_s",
+			"Test_Value": "PIT_LENGTH_SIGNAL",
+			"DB_Value": "PIT_LENGTH_SIGNAL",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "includingAcrossWelds_mds_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "includeAcrossWT_mds_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "groupInternalExternal_mds_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "effectiveArea_mds_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "smartEAM_mds_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "addRepairDigInfoToDesc_mds_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "pitTypesToGroup_mds_ms",
+			"Test_Value": "False, False, False, False, False",
+			"DB_Value": "False, False, False, False, False",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "excludePitsBelowPercent_iwv",
+			"Test_Value": "False, 1",
+			"DB_Value": "False, 1",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "groupRepairedAndNon_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "excludeGroupsBelowPercent_iwv",
+			"Test_Value": "False, 1",
+			"DB_Value": "False, 1",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "excludeGroupsBelowPercent_iwv",
+			"Test_Value": "True, LESS_THAN_OR_EQUAL_TO",
+			"DB_Value": "False, LESS_THAN_OR_EQUAL_TO",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "excludeSinglePit_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_25": {
+			"Name": "includeFailedSensor_iwv",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_26": {
+			"Name": "repairsUnderType_rg",
+			"Test_Value": "CUSTOM_RULES",
+			"DB_Value": "CUSTOM_RULES",
+			"Result": "Pass"
+		},
+		"TestCase_27": {
+			"Name": "propertyWithUpdates_grw",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_28": {
+			"Name": "repairsUnderType_rg - 1",
+			"Test_Value": "CUSTOM_RULES",
+			"DB_Value": "CUSTOM_RULES",
+			"Result": "Pass"
+		},
+		"TestCase_29": {
+			"Name": "propertyWithUpdates_grw - 1",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_30": {
+			"Name": "repairsUnderType_rg - 2",
+			"Test_Value": "CUSTOM_RULES",
+			"DB_Value": "CUSTOM_RULES",
+			"Result": "Pass"
+		},
+		"TestCase_31": {
+			"Name": "propertyWithUpdates_grw - 2",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_32": {
+			"Name": "repairsUnderType_rg - 3",
+			"Test_Value": "CUSTOM_RULES",
+			"DB_Value": "CUSTOM_RULES",
+			"Result": "Pass"
+		},
+		"TestCase_33": {
+			"Name": "propertyWithUpdates_grw - 3",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_34": {
+			"Name": "repairsUnderType_rg - 4",
+			"Test_Value": "CUSTOM_RULES",
+			"DB_Value": "CUSTOM_RULES",
+			"Result": "Pass"
+		},
+		"TestCase_35": {
+			"Name": "propertyWithUpdates_grw - 4",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_36": {
+			"Name": "repairsUnderType_rg - 5",
+			"Test_Value": "CUSTOM_RULES",
+			"DB_Value": "CUSTOM_RULES",
+			"Result": "Pass"
+		},
+		"TestCase_37": {
+			"Name": "propertyWithUpdates_grw - 5",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_38": {
+			"Name": "repairsUnderType_rg - 6",
+			"Test_Value": "CUSTOM_RULES",
+			"DB_Value": "CUSTOM_RULES",
+			"Result": "Pass"
+		},
+		"TestCase_39": {
+			"Name": "propertyWithUpdates_grw - 6",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_40": {
+			"Name": "repairsUnderType_rg - 7",
+			"Test_Value": "CUSTOM_RULES",
+			"DB_Value": "CUSTOM_RULES",
+			"Result": "Pass"
+		},
+		"TestCase_41": {
+			"Name": "propertyWithUpdates_grw - 7",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_42": {
+			"Name": "inheritPMDDescriptions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_43": {
+			"Name": "inheritRepairInfoDescriptions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_44": {
+			"Name": "inheritIDODDescriptions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_45": {
+			"Name": "inheritPitDescriptions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_46": {
+			"Name": "inheritWeldDescriptions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_47": {
+			"Name": "inheritPitDentDescriptions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_48": {
+			"Name": "inheritInteractionDescriptions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_49": {
+			"Name": "inheritInSeamDescriptions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_50": {
+			"Name": "overspeed_iwvtf",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_51": {
+			"Name": "degradedSensors_iwvtf",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_52": {
+			"Name": "degradedSensorsAndOverspeed_iwvtf",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_53": {
+			"Name": "degradedSensorsBeyondSpec_iwvtf",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_54": {
+			"Name": "overspeedBeyondSpec_iwvtf",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_55": {
+			"Name": "degradedSensorsAndOverspeedBeyondSpec_iwvtf",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_56": {
+			"Name": "labelMFGGroups_iwvs",
+			"Test_Value": "True, Pipe Mill Anomaly Cluster (MiAC)",
+			"DB_Value": "False, Pipe Mill Anomaly Cluster (MiAC)",
+			"Result": "Pass"
+		},
+		"TestCase_57": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Mill Anomaly Discrimination, AT, AFTER, Repair Label, COLON, BEFORE, Failed Sensor Interaction, DASH, AFTER, Interaction Info, COMMA, NONE, Dig/Repair Info, COMMA, BEFORE_AND_AFTER, Not Under Repairs: Inherit PMD Description, COLON, BEFORE, Not Under Repairs: Inherit Repair Info Description, COLON, AFTER, Not Under Repairs: Inherit IDOD Description, DASH, NONE, Not Under Repairs: Inherit Pit Classification, DASH, NONE, Not Under Repairs: Inherit Weld Interaction, COLON, BEFORE_AND_AFTER, Not Under Repairs: Inherit Pit's Dent Interaction, DASH, AFTER, Not Under Repairs: Inherit Interaction Description, COMMA, BEFORE_AND_AFTER, Not Under Repairs: Inherit In Seam Description, COLON, AFTER, Degraded Conditions, null, null",
+			"DB_Value": "Mill Anomaly Discrimination, AT, AFTER, Repair Label, COLON, BEFORE, Failed Sensor Interaction, DASH, AFTER, Interaction Info, COMMA, NONE, Dig/Repair Info, COMMA, BEFORE_AND_AFTER, Not Under Repairs: Inherit PMD Description, COLON, BEFORE, Not Under Repairs: Inherit Repair Info Description, COLON, AFTER, Not Under Repairs: Inherit IDOD Description, DASH, NONE, Not Under Repairs: Inherit Pit Classification, DASH, NONE, Not Under Repairs: Inherit Weld Interaction, COLON, BEFORE_AND_AFTER, Not Under Repairs: Inherit Pit's Dent Interaction, DASH, AFTER, Not Under Repairs: Inherit Interaction Description, COMMA, BEFORE_AND_AFTER, Not Under Repairs: Inherit In Seam Description, COLON, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_58": {
+			"Name": "includingAdditional_ta",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_59": {
+			"Name": "examples_ta",
+			"Test_Value": "Traveller",
+			"DB_Value": "Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_60": {
+			"Name": "processGroupInteraction_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,88 @@
+{
+	"HeavyWelds Page - Test 1": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "customDesc_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "propertyWithUpdates_s",
+			"Test_Value": "NPS",
+			"DB_Value": "NPS",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "filterOutWhenDepthIsLessThan_ivw",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeReportUnderSpeco_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "setUnderSpecProperty_iwv",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "value1_tf",
+			"Test_Value": "1",
+			"DB_Value": "1.0",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "value2_tf",
+			"Test_Value": "1",
+			"DB_Value": "1.0",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "doNotclassify_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "appendUnderSpec_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "addDigInfo_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "heavywelds_cl",
+			"Test_Value": "Dig/Repair Info, COLON, BEFORE, Underspec Label, COMMA, AFTER, Default Label, DASH, BEFORE_AND_AFTER",
+			"DB_Value": "Dig/Repair Info, COLON, BEFORE, Underspec Label, COMMA, AFTER, Default Label, DASH, BEFORE_AND_AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

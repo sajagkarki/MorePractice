@@ -1,0 +1,322 @@
+{
+	"Pits Page - Test 3": {
+		"TestCase_0": {
+			"Name": "addClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "metalLossAbbreviation_iwv",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "corrosionAbbreviation_iwv",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "mfgAbbreviation_iwv",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "girthWeldAnomalyAbbreviation_iwv",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "circumferentialPlanarAbbreviation_iwv",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "appendLabelToDescriptionOnPMDPits_iwv",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "appendLabelToDescriptionWhenPitClassifiedAsGouge_iwv",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "includeIDODDiscriminationProximity_iwvs",
+			"Test_Value": "INT/EXT",
+			"DB_Value": "INT/EXT",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "includeOnlyRepairedDescriptionShouldBeAdded_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "addRepairDigInfoToDescForAllRepairedPits_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "includeFailedSensor_iwv",
+			"Test_Value": "True, Failed Intersect",
+			"DB_Value": "True, Failed Intersect",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "FILTER, LESS_THAN_OR_EQUAL_TO, 22",
+			"DB_Value": "FILTER, LESS_THAN_OR_EQUAL_TO, 22",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "ROUND, ROUND_DOWN, GREATER_THAN_OR_EQUAL_TO, 13, LESS_THAN, 22, 15",
+			"DB_Value": "ROUND, ROUND_DOWN, GREATER_THAN_OR_EQUAL_TO, 13, LESS_THAN, 22, 15",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "FILTER, LESS_THAN, 12",
+			"DB_Value": "FILTER, LESS_THAN, 12",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "ROUND, ROUND_DOWN, GREATER_THAN, 1, LESS_THAN_OR_EQUAL_TO, 12, 13",
+			"DB_Value": "ROUND, ROUND_DOWN, GREATER_THAN, 1, LESS_THAN_OR_EQUAL_TO, 12, 13",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "ROUND, ROUND_DOWN, GREATER_THAN, 14, LESS_THAN, 2, 11",
+			"DB_Value": "ROUND, ROUND_DOWN, GREATER_THAN, 14, LESS_THAN, 2, 11",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "FILTER, LESS_THAN_OR_EQUAL_TO, 18",
+			"DB_Value": "FILTER, LESS_THAN_OR_EQUAL_TO, 18",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "allPitsAssociated_iwv",
+			"Test_Value": "True, Hello World",
+			"DB_Value": "True, Hello World",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "markAsRepaired_ms",
+			"Test_Value": "True, True, True, True, True, True, True, True",
+			"DB_Value": "True, True, True, True, True, True, True, True",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "reportType_rg",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "reportType_rg - 1",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "reportType_rg - 2",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "reportType_rg - 3",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "reportType_rg - 4",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_25": {
+			"Name": "reportType_rg - 5",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_26": {
+			"Name": "reportType_rg - 6",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_27": {
+			"Name": "reportType_rg - 7",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_28": {
+			"Name": "reportWithAmplitudes_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_29": {
+			"Name": "reportWithDepth_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_30": {
+			"Name": "attributeSizingTopL_iwvs",
+			"Test_Value": "True, Manufacturing Defect",
+			"DB_Value": "False, Manufacturing Defect",
+			"Result": "Pass"
+		},
+		"TestCase_31": {
+			"Name": "appendDiscrimination_iwvs",
+			"Test_Value": "True, INT / EXT",
+			"DB_Value": "True, INT / EXT",
+			"Result": "Pass"
+		},
+		"TestCase_32": {
+			"Name": "appendOrientation_iwvs",
+			"Test_Value": "True, O'clock",
+			"DB_Value": "True, O'clock",
+			"Result": "Pass"
+		},
+		"TestCase_33": {
+			"Name": "processGWInteraction_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_34": {
+			"Name": "gwInteraction_rg",
+			"Test_Value": "STANDARD_INTERACTION",
+			"DB_Value": "STANDARD_INTERACTION",
+			"Result": "Pass"
+		},
+		"TestCase_35": {
+			"Name": "appendGWSILabel_iwv",
+			"Test_Value": "False, Greetings Comrade",
+			"DB_Value": "False, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_36": {
+			"Name": "appendLabelWhenInSeam_iwv",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_37": {
+			"Name": "overspeed_iwvtf",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_38": {
+			"Name": "degradedSensors_iwvtf",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_39": {
+			"Name": "degradedSensorsAndOverspeed_iwvtf",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_40": {
+			"Name": "degradedSensorsBeyondSpec_iwvtf",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_41": {
+			"Name": "overspeedBeyondSpec_iwvtf",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_42": {
+			"Name": "degradedSensorsAndOverspeedBeyondSpec_iwvtf",
+			"Test_Value": "True, Greetings Comrade",
+			"DB_Value": "True, Greetings Comrade",
+			"Result": "Pass"
+		},
+		"TestCase_43": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Repair Label, DASH, AFTER, Pit/Dent Association Label, COLON, AFTER, Dig/Repair Info, FORWARD_SLASH, BEFORE, Classification, DASH, BEFORE_AND_AFTER, Interaction Info, SEMICOLON, NONE, IDOD Discrimination, COMMA, BEFORE, Mill Anomaly Discrimination, HASH, BEFORE_AND_AFTER, Mill Anomaly Orientation, COMMA, BEFORE, PMD Label, COLON, BEFORE_AND_AFTER, Weld Interaction, AT, AFTER, Pit Classified As Gouge, COMMA, BEFORE_AND_AFTER, Failed Sensor Interaction, COLON, AFTER, In Seam Label, DASH, AFTER, Degraded Conditions, null, null",
+			"DB_Value": "Repair Label, DASH, AFTER, Pit/Dent Association Label, COLON, AFTER, Dig/Repair Info, FORWARD_SLASH, BEFORE, Classification, DASH, BEFORE_AND_AFTER, Interaction Info, SEMICOLON, NONE, IDOD Discrimination, COMMA, BEFORE, Mill Anomaly Discrimination, HASH, BEFORE_AND_AFTER, Mill Anomaly Orientation, COMMA, BEFORE, PMD Label, COLON, BEFORE_AND_AFTER, Weld Interaction, AT, AFTER, Pit Classified As Gouge, COMMA, BEFORE_AND_AFTER, Failed Sensor Interaction, COLON, AFTER, In Seam Label, DASH, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_44": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_45": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_46": {
+			"Name": "classification_rg",
+			"Test_Value": "DEFAULT",
+			"DB_Value": "DEFAULT",
+			"Result": "Pass"
+		},
+		"TestCase_47": {
+			"Name": "updateComponent_c",
+			"Test_Value": "True, Wingdings, [Dig Length, Dig/Repair Number, Dig Width, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig Length, Dig/Repair Number, Dig Width, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_48": {
+			"Name": "updateComponent_c - 1",
+			"Test_Value": "True, Wingdings, [Dig Length, Dig/Repair Number, Dig Width, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig Length, Dig/Repair Number, Dig Width, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_49": {
+			"Name": "updateComponent_c - 2",
+			"Test_Value": "True, Wingdings, [Dig Length, Dig/Repair Number, Dig Width, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig Length, Dig/Repair Number, Dig Width, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_50": {
+			"Name": "updateComponent_c - 3",
+			"Test_Value": "True, Wingdings, [Dig Length, Dig/Repair Number, Dig Width, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig Length, Dig/Repair Number, Dig Width, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_51": {
+			"Name": "updateComponent_c - 4",
+			"Test_Value": "True, Wingdings, [Dig Length, Dig/Repair Number, Dig Width, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig Length, Dig/Repair Number, Dig Width, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_52": {
+			"Name": "updateComponent_c - 5",
+			"Test_Value": "True, Wingdings, [Dig Length, Dig/Repair Number, Dig Width, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig Length, Dig/Repair Number, Dig Width, Dig Depth",
+			"Result": "Pass"
+		}
+	}
+}

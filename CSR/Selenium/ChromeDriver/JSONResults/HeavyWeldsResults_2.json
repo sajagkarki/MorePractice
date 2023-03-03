@@ -1,0 +1,76 @@
+{
+	"HeavyWelds Page - Test 2": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "customDesc_iwv",
+			"Test_Value": "False, 0",
+			"DB_Value": "False, 0",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "propertyWithUpdates_s",
+			"Test_Value": "APS",
+			"DB_Value": "APS",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "filterOutWhenDepthIsLessThan_ivw",
+			"Test_Value": "False, 0",
+			"DB_Value": "False, 0",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeReportUnderSpeco_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "setUnderSpecProperty_iwv",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "doNotclassify_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "appendUnderSpec_iwv",
+			"Test_Value": "False, World",
+			"DB_Value": "False, World",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "addDigInfo_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "heavywelds_cl",
+			"Test_Value": "Underspec Label, AT, BEFORE, Default Label, COLON, BEFORE, Dig/Repair Info, COMMA, BEFORE",
+			"DB_Value": "Underspec Label, AT, BEFORE, Default Label, COLON, BEFORE, Dig/Repair Info, COMMA, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Web",
+			"DB_Value": "Web",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "examples_ta",
+			"Test_Value": "Web",
+			"DB_Value": "Web",
+			"Result": "Pass"
+		}
+	}
+}

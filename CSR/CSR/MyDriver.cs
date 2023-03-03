@@ -1,5 +1,7 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Edge;
+using OpenQA.Selenium.Firefox;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -11,37 +13,55 @@ namespace SeleniumAutomation
     {
         public WebDriver Driver;
         //See changes in git after adding this comment. 
-        public IWebElement GetWebElement(TestCases testCases)
+        public IWebElement GetWebElement(TestCases testCases,int count=0)
         {
-            if ("id".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
+            try 
             {
-                IWebElement webElement = Driver.FindElement(By.Id(testCases.LocatorTypeValue));
-                return webElement;
-            }
+                if ("id".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
+                {
+                    IWebElement webElement = Driver.FindElement(By.Id(testCases.LocatorTypeValue));
+                    
+                    return webElement;
+                    
+                }
 
-            if ("xpath".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
-            {
-                IWebElement webElement = Driver.FindElement(By.XPath(testCases.LocatorTypeValue));
-                return webElement;
-            }
+                if ("xpath".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
+                {
+                    IWebElement webElement = Driver.FindElement(By.XPath(testCases.LocatorTypeValue));
+                    return webElement;
+                }
 
-            if ("name".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
-            {
-                IWebElement webElement = Driver.FindElement(By.Name(testCases.LocatorTypeValue));
-                return webElement;
-            }
+                if ("name".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
+                {
+                    IWebElement webElement = Driver.FindElement(By.Name(testCases.LocatorTypeValue));
+                    return webElement;
+                }
 
-            if ("ClassName".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
-            {
-                IWebElement webElement = Driver.FindElement(By.ClassName(testCases.LocatorTypeValue));
-                return webElement;
-            }
+                if ("ClassName".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
+                {
+                    IWebElement webElement = Driver.FindElement(By.ClassName(testCases.LocatorTypeValue));
+                    return webElement;
+                }
 
-            if ("CssSelector".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
-            {
-                IWebElement webElement = Driver.FindElement(By.CssSelector(testCases.LocatorTypeValue));
-                return webElement;
+                if ("CssSelector".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
+                {
+                    IWebElement webElement = Driver.FindElement(By.CssSelector(testCases.LocatorTypeValue));
+                    return webElement;
+                }
             }
+            catch(Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                Console.WriteLine(ex.StackTrace);
+                if (count<5)
+                
+                {
+                    Thread.Sleep(2000);
+                   return GetWebElement(testCases, count + 1); 
+                    
+                }
+            }
+           
             return null;
         }
 
@@ -53,6 +73,17 @@ namespace SeleniumAutomation
                 if ("openbrowser".Equals(testCases.Action, StringComparison.OrdinalIgnoreCase))
                 {
                     Driver = new ChromeDriver();
+                   
+                }
+                else if ("openbrowserIE".Equals(testCases.Action, StringComparison.OrdinalIgnoreCase))
+                {
+                    Driver = new EdgeDriver();
+
+                }
+                else if ("openbrowserFirefox".Equals(testCases.Action, StringComparison.OrdinalIgnoreCase))
+                {
+                    Driver = new FirefoxDriver();
+
                 }
                 else if ("enterurl".Equals(testCases.Action, StringComparison.OrdinalIgnoreCase))
                 {
@@ -60,6 +91,7 @@ namespace SeleniumAutomation
                     Thread.Sleep(2000);
                     var windows=Driver.WindowHandles;
                     Console.WriteLine(windows.Count);
+                    
 
                     Process.Start(@"c:\driver\login.exe");
                    // Driver.FindElement(By.)
@@ -168,6 +200,7 @@ namespace SeleniumAutomation
             }
             catch (Exception ex)
             {
+
                 testCases.IsPassed = false;
             }
 

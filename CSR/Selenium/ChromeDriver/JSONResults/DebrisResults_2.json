@@ -1,0 +1,58 @@
+{
+	"Debris Page - Test 2": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "includeDebrisClassification_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "reportInOClock_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "includeBeginEndLength_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "reportSingleDebris_iwvu",
+			"Test_Value": "False, 5",
+			"DB_Value": "False, 5.0",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "reportSingleDebris_iwvu",
+			"Test_Value": "false, m",
+			"DB_Value": "False, m",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "debris_cl",
+			"Test_Value": "O'clock, SEMICOLON, AFTER, Debris classification, COMMA, BEFORE_AND_AFTER, Debris length, HASH, AFTER",
+			"DB_Value": "O'clock, SEMICOLON, AFTER, Debris classification, COMMA, BEFORE_AND_AFTER, Debris length, HASH, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Vikings",
+			"DB_Value": "Vikings",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "examples_ta",
+			"Test_Value": "Vikings",
+			"DB_Value": "Vikings",
+			"Result": "Pass"
+		}
+	}
+}

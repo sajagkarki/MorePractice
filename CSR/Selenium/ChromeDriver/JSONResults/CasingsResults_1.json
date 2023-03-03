@@ -1,0 +1,124 @@
+{
+	"Casings Page - Test 1": {
+		"TestCase_0": {
+			"Name": "beginCasing_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "staPrefix_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "encloseSta_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "omitLocalizationSeparatorBegin_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "componentsOrderBegin_cl",
+			"Test_Value": "Name, COLON, AFTER, Localization, COMMA, BEFORE_AND_AFTER, Stationing, DASH, NONE",
+			"DB_Value": "Name, COLON, AFTER, Localization, COMMA, BEFORE_AND_AFTER, Stationing, DASH, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "endCasing_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "staPrefixEnd_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "encloseStaEnd_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "omitLocalizationSeparatorEnd_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "componentsOrderEnd_cl",
+			"Test_Value": "Name, COLON, AFTER, Localization, COMMA, BEFORE_AND_AFTER, Stationing, DASH, NONE",
+			"DB_Value": "Name, COLON, AFTER, Localization, COMMA, BEFORE_AND_AFTER, Stationing, DASH, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "includeClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "omitLocalizationSeparator_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "reportingType_rg",
+			"Test_Value": "FIRST_AND_LAST",
+			"DB_Value": "FIRST_AND_LAST",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "labelDisc_s",
+			"Test_Value": "Spacer Begin / Spacer End",
+			"DB_Value": "Spacer Begin / Spacer End",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "reportOnlyFirstAndLast_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "componentOrderSpacers_cl",
+			"Test_Value": "Series Description, COLON, AFTER, Localization, COMMA, BEFORE_AND_AFTER, Classification, DASH, NONE",
+			"DB_Value": "Series Description, COLON, AFTER, Localization, COMMA, BEFORE_AND_AFTER, Classification, DASH, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "addLocalizations_iwvs",
+			"Test_Value": "true, On Both, begin and end casings",
+			"DB_Value": "True, On Both, begin and end casings",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "stationing_sta",
+			"Test_Value": "True, CUSTOM, Furlongs, Odometer Data",
+			"DB_Value": "True, CUSTOM, Furlongs, Odometer Data",
+			"Result": "Pass"
+		}
+	}
+}

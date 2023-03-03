@@ -1,0 +1,94 @@
+{
+	"Gains Page - Test 2": {
+		"TestCase_0": {
+			"Name": "prefixGainLabel_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "filterGauss_iwv",
+			"Test_Value": "False, 2",
+			"DB_Value": "False, 2.0",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "showDepth_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "fullCircLabel_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeMetalObjectType_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeOpeningDimensions_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "roundOrientation_iwv",
+			"Test_Value": "False, 2",
+			"DB_Value": "False, 2.0",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "roundOrientation_iwv",
+			"Test_Value": "mm",
+			"DB_Value": "mm",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Dimensions, DASH, AFTER, Depth, COMMA, BEFORE_AND_AFTER, Description, COMMA, AFTER, Metal Object Type, COLON, BEFORE_AND_AFTER, Full Circumferential, AT, NONE",
+			"DB_Value": "Dimensions, DASH, AFTER, Depth, COMMA, BEFORE_AND_AFTER, Description, COMMA, AFTER, Metal Object Type, COLON, BEFORE_AND_AFTER, Full Circumferential, AT, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "prefixLabel_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "orientationInOClock_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "showPuddleDepth_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "puddleWeldsComponentsOrder_cl",
+			"Test_Value": "Description, DASH, AFTER, Orientation, COMMA, BEFORE_AND_AFTER",
+			"DB_Value": "Description, DASH, AFTER, Orientation, COMMA, BEFORE_AND_AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

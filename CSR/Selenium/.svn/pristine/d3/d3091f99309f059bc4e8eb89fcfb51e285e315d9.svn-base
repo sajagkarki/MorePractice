@@ -1,0 +1,172 @@
+{
+	"Fittings Page - Test 1": {
+		"TestCase_0": {
+			"Name": "descriptionAllCaps_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "roundOrientation_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeFittingClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "prependLabel_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "value_tf - 1",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "fittingBetweenTwoWelds_iwvtf",
+			"Test_Value": "True, 0",
+			"DB_Value": "True, 0.0",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "fittingBetweenTwoWelds_iwvtf",
+			"Test_Value": "True, in",
+			"DB_Value": "True, in",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "fitting_od",
+			"Test_Value": "At, 12:00, At, 9:00, @, 3:00, At, Top",
+			"DB_Value": "At, 12:00, At, 9:00, @, 3:00, At, Top",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "includeOrientation_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "stationingPrefix_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "encloseStationing_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "includeOpeningDimensions_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "roundOrientation_iwv",
+			"Test_Value": "True, 0",
+			"DB_Value": "True, 0.0",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "roundOrientation_iwv",
+			"Test_Value": "in",
+			"DB_Value": "in",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "isolatedFittingsDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "isolatedFittingsReinforced_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "fittingsReinforcedSleeve_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "fittingsReinforcedPAtch_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "omitLocalizationSeparator_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "roundOrientation_cl",
+			"Test_Value": "Classification, COLON, BEFORE, Isolated Desc, AT, AFTER, Orientation, COMMA, BEFORE_AND_AFTER, Dimensions, DASH, NONE, Reinforcement, COLON, AFTER, Label, COMMA, BEFORE_AND_AFTER, Localization, AT, BEFORE, Stationing, AT, BEFORE",
+			"DB_Value": "Classification, COLON, BEFORE, Isolated Desc, AT, AFTER, Orientation, COMMA, BEFORE_AND_AFTER, Dimensions, DASH, NONE, Reinforcement, COLON, AFTER, Label, COMMA, BEFORE_AND_AFTER, Localization, AT, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "markReinforcedFitting_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "markReinforcedSleeve_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "uncheckSleeveRepair_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_25": {
+			"Name": "markReinforcedFittingPatch_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_26": {
+			"Name": "markPatch_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_27": {
+			"Name": "stationing_sta",
+			"Test_Value": "True, METRIC, Furlongs, Alignment Maps, Previous Runs, Client Questionnaire, Pipe Listings",
+			"DB_Value": "True, METRIC, Floogles, Alignment Maps, Previous Runs, Client Questionnaire, Pipe Listings",
+			"Result": "Pass"
+		}
+	}
+}

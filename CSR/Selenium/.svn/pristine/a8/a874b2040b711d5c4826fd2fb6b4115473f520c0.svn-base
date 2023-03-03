@@ -1,0 +1,196 @@
+{
+	"Valves Page - Test 2": {
+		"TestCase_0": {
+			"Name": "launcherType_iwv",
+			"Test_Value": "False, Wide Web",
+			"DB_Value": "False, Wide Web",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "receiverType_iwv",
+			"Test_Value": "False, Wide Web",
+			"DB_Value": "False, Wide Web",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeStationing_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "staPrefix_iwv",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "encloseStationing_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "omitLocalizationSeparator_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "addMilePrefix_iwvs",
+			"Test_Value": "False, MP",
+			"DB_Value": "False, MP",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "order_cl",
+			"Test_Value": "Stationing, COMMA, BEFORE_AND_AFTER, Localization, COLON, AFTER, Mile Posting, COLON, BEFORE_AND_AFTER, Valve Name, DASH, NONE, Valve Type, COMMA, AFTER",
+			"DB_Value": "Stationing, COMMA, BEFORE_AND_AFTER, Localization, COLON, AFTER, Mile Posting, COLON, BEFORE_AND_AFTER, Valve Name, DASH, NONE, Valve Type, COMMA, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "attributeSizingTopL_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "staPrefix_iwv - 1",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "encloseStationing_cb - 1",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "omitLocalizationSeparator_cb - 1",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "addMilePrefix_iwvs - 1",
+			"Test_Value": "False, MP",
+			"DB_Value": "False, MP",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "order_cl - 1",
+			"Test_Value": "Stationing, COMMA, BEFORE_AND_AFTER, Localization, COLON, AFTER, Mile Posting, COLON, BEFORE_AND_AFTER, Valve Name, DASH, NONE, Valve Type, COMMA, AFTER",
+			"DB_Value": "Stationing, COMMA, BEFORE_AND_AFTER, Localization, COLON, AFTER, Mile Posting, COLON, BEFORE_AND_AFTER, Valve Name, DASH, NONE, Valve Type, COMMA, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Wide Web",
+			"DB_Value": "Wide Web",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "examples_ta",
+			"Test_Value": "Wide Web",
+			"DB_Value": "Wide Web",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "substituteReference_iwvs",
+			"Test_Value": "False, Reducer",
+			"DB_Value": "False, Reducer",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "artificialReference_iwvs",
+			"Test_Value": "False, Reducer",
+			"DB_Value": "False, Reducer",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "maxDistance_iwd",
+			"Test_Value": "False, [Tracking Sheet, Previous Runs]",
+			"DB_Value": "False, Tracking Sheet, Previous Runs",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "stationing_sta",
+			"Test_Value": "False, CUSTOM, Furlongs, Tracking Sheet, Previous Runs",
+			"DB_Value": "False, CUSTOM, Furlongs, Tracking Sheet, Previous Runs",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "milePosting_mp",
+			"Test_Value": "False, Wingnuts, [Tracking Sheet, Previous Runs]",
+			"DB_Value": "False, Wingnuts, Tracking Sheet, Previous Runs",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "description_iwd",
+			"Test_Value": "False, [Alignment Maps, Tracking Sheet, Pipe Listing]",
+			"DB_Value": "False, Alignment Maps, Tracking Sheet, Pipe Listing",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "comments_iwd",
+			"Test_Value": "False, [Alignment Maps, Tracking Sheet, Pipe Listing]",
+			"DB_Value": "False, Alignment Maps, Tracking Sheet, Pipe Listing",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "valveTypes_ms",
+			"Test_Value": "False, False, False",
+			"DB_Value": "False, False, False",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "valveTypes_ds",
+			"Test_Value": "[Alignment Maps, Tracking Sheet, Pipe Listing]",
+			"DB_Value": "Alignment Maps, Tracking Sheet, Pipe Listing",
+			"Result": "Pass"
+		},
+		"TestCase_25": {
+			"Name": "seperateAGMValves_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_26": {
+			"Name": "maxDistance_iwd - 1",
+			"Test_Value": "False, [Tracking Sheet, Previous Runs]",
+			"DB_Value": "False, Tracking Sheet, Previous Runs",
+			"Result": "Pass"
+		},
+		"TestCase_27": {
+			"Name": "stationing_sta - 1",
+			"Test_Value": "False, CUSTOM, Furlongs, Tracking Sheet, Previous Runs",
+			"DB_Value": "False, CUSTOM, Furlongs, Tracking Sheet, Previous Runs",
+			"Result": "Pass"
+		},
+		"TestCase_28": {
+			"Name": "milePosting_mp - 1",
+			"Test_Value": "False, Wingnuts, [Tracking Sheet, Previous Runs]",
+			"DB_Value": "False, Wingnuts, Tracking Sheet, Previous Runs",
+			"Result": "Pass"
+		},
+		"TestCase_29": {
+			"Name": "description_iwd - 1",
+			"Test_Value": "False, [Alignment Maps, Tracking Sheet, Pipe Listing]",
+			"DB_Value": "False, Alignment Maps, Tracking Sheet, Pipe Listing",
+			"Result": "Pass"
+		},
+		"TestCase_30": {
+			"Name": "comments_iwd - 1",
+			"Test_Value": "False, [Alignment Maps, Tracking Sheet, Pipe Listing]",
+			"DB_Value": "False, Alignment Maps, Tracking Sheet, Pipe Listing",
+			"Result": "Pass"
+		},
+		"TestCase_31": {
+			"Name": "useClients_iwd",
+			"Test_Value": "False, [Alignment Maps, Tracking Sheet, Pipe Listing]",
+			"DB_Value": "False, Alignment Maps, Tracking Sheet, Pipe Listing",
+			"Result": "Pass"
+		}
+	}
+}

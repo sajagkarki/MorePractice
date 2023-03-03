@@ -1,0 +1,40 @@
+{
+	"MDS Reports Repairs Page - Test 1": {
+		"TestCase_0": {
+			"Name": "measurementsUnits_ts",
+			"Test_Value": "Metric",
+			"DB_Value": "Metric",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "pressureUnits_ts",
+			"Test_Value": "KSI",
+			"DB_Value": "KSI",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "temperatureUnits_ts",
+			"Test_Value": "Celsius",
+			"DB_Value": "Celsius",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "includeGPS_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeMapping_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "useMDM1_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,90 @@
+{
+	"InputName": "Markers",
+	"FileCounter": 2,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Persons",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Wide",
+		"dragListSeparatorValues": [
+			0,
+			2,
+			2,
+			1,
+			3,
+			2,
+			3
+		],
+		"dragListSeparatorOptions": [
+			2,
+			0,
+			3,
+			2,
+			1,
+			1,
+			3
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 1,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"componentsOrder_cl": [
+			"Stationing",
+			"Marker Type",
+			"Mile Posting",
+			"Correlation Notes",
+			"Numbering",
+			"Localization",
+			"Marker Box"
+		],
+		"mark_availableList": [
+			"Alignment Maps",
+			"Previous Runs",
+			"Pipe Listings"
+		],
+		"mark_selectedList": [
+			"Tracking Sheet"
+		],
+		"mark2_availableList": [
+			"Alignment Maps",
+			"Previous Runs",
+			"Pipe Listing"
+		],
+		"mark2_selectedList": [
+			"Tracking Sheet"
+		],
+		"sta_availableList": [
+			"Odometer Data",
+			"Alignment Maps"
+		],
+		"sta_selectedList": [
+			"Pipe Listings",
+			"Tracking Sheet",
+			"Previous Runs",
+			"Client Questionnaire"
+		],
+		"GPSCoordinates_cb": true
+	}
+}

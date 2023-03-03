@@ -1,0 +1,51 @@
+{
+	"InputName": "HeavyWelds",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 1,
+		"defaultSelectValue": 1,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Of Spiders",
+		"dragListSeparatorValues": [
+			1,
+			2,
+			3
+		],
+		"dragListSeparatorOptions": [
+			0,
+			1,
+			2
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"heavywelds_cl": [
+			"Dig/Repair Info",
+			"Underspec Label",
+			"Default Label"
+		]
+	}
+}

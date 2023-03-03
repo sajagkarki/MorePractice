@@ -1,0 +1,74 @@
+{
+	"InputName": "Tees",
+	"FileCounter": 1,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 1,
+		"defaultSelectValue": 1,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "World",
+		"dragListSeparatorValues": [
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			1
+		],
+		"dragListSeparatorOptions": [
+			1,
+			2,
+			3,
+			1,
+			2,
+			3,
+			1
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"includeOpeningDimensions_cb":true,
+		"componentsOrder_cl": [
+			"Dimensions",
+			"Localization",
+			"Label",
+			"Classification",
+			"Orientation",
+			"Stationing",
+			"Barred"
+		],
+		"acceptedList": [
+			"Odometer Data",
+			"Pipe Listings"
+		],
+		"selectedList": [
+			"Tracking Sheet",
+			"Alignment Maps",
+			"Previous Runs",
+			"Client Questionnaire"
+		]
+	}
+}

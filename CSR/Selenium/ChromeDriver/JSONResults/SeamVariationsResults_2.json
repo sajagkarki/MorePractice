@@ -1,0 +1,46 @@
+{
+	"Seam Variations Page - Test 2": {
+		"TestCase_0": {
+			"Name": "includeDescriptionSV_tf",
+			"Test_Value": "False, Salutations",
+			"DB_Value": "False, Salutations",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "reportDepths_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "interactingAP_iwv",
+			"Test_Value": "False, Salutations",
+			"DB_Value": "False, Salutations",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "addRepairDigInfoToDesc_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Description, DASH, BEFORE_AND_AFTER, AP Interaction, HASH, BEFORE, Dig/Repair Info, null, null",
+			"DB_Value": "Description, DASH, BEFORE_AND_AFTER, AP Interaction, HASH, BEFORE, Dig/Repair Info, COMMA, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Planetary",
+			"DB_Value": "Planetary",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "examples_ta",
+			"Test_Value": "Planetary",
+			"DB_Value": "Planetary",
+			"Result": "Pass"
+		}
+	}
+}

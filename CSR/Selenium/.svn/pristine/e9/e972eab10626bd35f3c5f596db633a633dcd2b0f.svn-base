@@ -1,0 +1,64 @@
+{
+	"Flanges Page - Test 1": {
+		"TestCase_0": {
+			"Name": "descriptionAllCaps_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "defaultDescription_tf",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "isolatedDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "spectacleDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "stationingPrefix_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "encloseStationing_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Stationing, COLON, BEFORE, Classification, AT, AFTER",
+			"DB_Value": "Stationing, COLON, BEFORE, Classification, AT, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "stationing_sta",
+			"Test_Value": "True, METRIC, Furlongs, Pipe Listings, Odometer Data, Alignment Maps, Client Questionnaire",
+			"DB_Value": "True, METRIC, , Pipe Listings, Odometer Data, Alignment Maps, Client Questionnaire",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,48 @@
+{
+	"InputName": "PitAnalysis",
+	"FileCounter": 2,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Greetings",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Planet",
+		"dragListSeparatorValues": [
+			1,
+			0
+		],
+		"dragListSeparatorOptions": [
+			0,
+			1
+		],
+		"defaultRGValues": 1,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"primaryAnalysis_rg": 1,
+		"includeAttributeSizing_cb": true,
+		"finalAnalysis_rg": 1,
+		"displayFinalAnalysis_iwc": true
+	}
+}

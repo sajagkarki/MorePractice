@@ -1,0 +1,48 @@
+{
+	"InputName": "MarkerPlates",
+	"FileCounter": 2,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "I'm out of MP!",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Then Use an Ether!",
+		"dragListSeparatorValues": [
+			2,
+			1
+		],
+		"dragListSeparatorOptions": [
+			3,
+			0
+		],
+		"defaultRGValues": 1,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"markerplates_cl": [
+			"Label",
+			"Stationing"
+		]
+	}
+}

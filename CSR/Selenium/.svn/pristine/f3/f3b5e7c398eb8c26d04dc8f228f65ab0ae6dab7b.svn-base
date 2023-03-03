@@ -1,0 +1,58 @@
+{
+	"Failed Sensors Page - Test 1": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "customDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "beginFailedSensorDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "endFailedSensorDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeTechnology_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeSensorNumber_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "failedSensor_cl",
+			"Test_Value": "Failed Sensor Object Type, COLON, BEFORE, Technology, AT, AFTER, Sensor Number, COLON, BEFORE, Label, AT, BEFORE",
+			"DB_Value": "Failed Sensor Object Type, COLON, BEFORE, Technology, AT, AFTER, Sensor Number, COLON, BEFORE, Label, AT, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

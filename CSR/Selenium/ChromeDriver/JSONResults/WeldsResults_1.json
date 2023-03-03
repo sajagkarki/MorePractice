@@ -1,0 +1,16 @@
+{
+	"Welds Page - Test 1": {
+		"TestCase_0": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World Class Service",
+			"DB_Value": "World Class Service",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "examples_ta",
+			"Test_Value": "World Class Service",
+			"DB_Value": "World Class Service",
+			"Result": "Pass"
+		}
+	}
+}

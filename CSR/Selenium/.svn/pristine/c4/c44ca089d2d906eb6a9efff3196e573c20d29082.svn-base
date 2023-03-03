@@ -1,0 +1,46 @@
+{
+	"Expansions Page - Test 2": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "includeReportUnderSpecDents_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "customDescription_iwv",
+			"Test_Value": "False, Goodbye",
+			"DB_Value": "False, Goodbye",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "showInteractionDesc_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "expansions_cl",
+			"Test_Value": "Interaction Info, AT, BEFORE_AND_AFTER, Label, DASH, BEFORE_AND_AFTER",
+			"DB_Value": "Interaction Info, AT, BEFORE_AND_AFTER, Label, DASH, BEFORE_AND_AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Class",
+			"DB_Value": "Class",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "examples_ta",
+			"Test_Value": "Class",
+			"DB_Value": "Class",
+			"Result": "Pass"
+		}
+	}
+}

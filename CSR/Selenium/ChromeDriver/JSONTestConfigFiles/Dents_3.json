@@ -1,0 +1,100 @@
+{
+	"InputName": "Dents",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Traveling Wanderer",
+		"defaultIWVSValue": 1,
+		"defaultSelectValue": 1,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Spiders",
+		"dragListSeparatorValues": [
+			4,
+			2,
+			1,
+			5,
+			2,
+			3,
+			4,
+			1,
+			2,
+			3,
+			2,
+			1,
+			2,
+			3,
+			4,
+			5,
+			0
+		],
+		"dragListSeparatorOptions": [
+			1,
+			2,
+			2,
+			3,
+			1,
+			2,
+			1,
+			1,
+			1,
+			0,
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			2
+		],
+		"defaultRGValues": 0,
+		"includeStationing": false,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": false,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			0,
+			1,
+			0,
+			1,
+			0,
+			1
+		]
+	},
+	"uniqueValues": {
+		"reportAllDentsOnTop_cb": false,
+		"appendLabels_cb": false,
+		"processMLClassification_cb": false,
+		"processGWInteraction_cb": false,
+		"includeAppendMultiApex_cb": false,
+		"appendDescriptionCase_cb": false,
+		"includeMarkDentsInMFL_cb": false,
+		"reportingFilters_dcrf": [
+			0,
+			1,
+			0
+		],
+		"availableList": [
+			"Dig Depth",
+			"Dig Length",
+			"Dig Width"
+		],
+		"selectedList": [
+			"Dig Orientation",
+			"Dig/Repair Number"
+		]
+	}
+}

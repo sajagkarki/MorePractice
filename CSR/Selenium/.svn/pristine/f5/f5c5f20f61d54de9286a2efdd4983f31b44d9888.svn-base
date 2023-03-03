@@ -1,0 +1,94 @@
+{
+	"Gains Page - Test 1": {
+		"TestCase_0": {
+			"Name": "prefixGainLabel_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "filterGauss_iwv",
+			"Test_Value": "True, 3",
+			"DB_Value": "True, 3.0",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "showDepth_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "fullCircLabel_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeMetalObjectType_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeOpeningDimensions_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "roundOrientation_iwv",
+			"Test_Value": "True, 3",
+			"DB_Value": "True, 3.0",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "roundOrientation_iwv",
+			"Test_Value": "ft",
+			"DB_Value": "ft",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Depth, COLON, BEFORE, Metal Object Type, AT, AFTER, Dimensions, COLON, BEFORE_AND_AFTER, Description, DASH, AFTER, Full Circumferential, COMMA, BEFORE",
+			"DB_Value": "Depth, COLON, BEFORE, Metal Object Type, AT, AFTER, Dimensions, COLON, BEFORE_AND_AFTER, Description, DASH, AFTER, Full Circumferential, COMMA, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "prefixLabel_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "orientationInOClock_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "showPuddleDepth_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "puddleWeldsComponentsOrder_cl",
+			"Test_Value": "Orientation, COLON, BEFORE, Description, AT, AFTER",
+			"DB_Value": "Orientation, COLON, BEFORE, Description, AT, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

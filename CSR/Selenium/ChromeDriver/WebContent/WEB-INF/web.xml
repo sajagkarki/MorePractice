@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>CSRRest</display-name>
+
+  <listener>
+  <!-- */WebContent/WEB-INF/web.xml -->
+    <listener-class>com.tdw.config.ServletConfigurator</listener-class>
+  </listener>
+  
+	<servlet>
+		<servlet-name>Jersey REST Service</servlet-name>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>jersey.config.server.provider.packages</param-name>
+			<param-value>com.tdw.csr.service,com.tdw.service</param-value>
+		</init-param>
+		<init-param>
+			<param-name>javax.ws.rs.Application</param-name>
+			<param-value>com.tdw.csr.service.utils.CSRApplication</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Jersey REST Service</servlet-name>
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Secured REST API</servlet-name>
+		<servlet-class>org.glassfish.jersey.servlet.ServletContainer</servlet-class>
+		<init-param>
+			<param-name>jersey.config.server.provider.packages</param-name>
+			<param-value>com.tdw.csr.service,com.tdw.service</param-value>
+		</init-param>
+		<init-param>
+			<param-name>javax.ws.rs.Application</param-name>
+			<param-value>com.tdw.csr.service.auth.RestApplication</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Secured REST API</servlet-name>
+		<url-pattern>/api/*</url-pattern>
+	</servlet-mapping>
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>api</web-resource-name>
+			<url-pattern>/api/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>*</role-name>
+		</auth-constraint>
+	</security-constraint>
+	<security-role><role-name>ROOT</role-name></security-role>
+	<security-role><role-name>SITE_ADMIN</role-name></security-role>
+    <security-role><role-name>PROFILE_ADMIN</role-name></security-role>
+    <security-role><role-name>CLIENT_REP</role-name></security-role>
+    <security-role><role-name>READ_ONLY</role-name></security-role>
+
+	<!-- <login-config>
+		<auth-method>BASIC</auth-method>
+		<realm-name>TDWILLIAMSON.COM</realm-name>
+	</login-config> -->
+
+    <!--  <Valve className="it.cosenonjaviste.security.jwt.valves.RsaJwtTokenValve" 
+           keystorePath="/etc/keystores/keystore.jks"
+           keystorePassword="ks_password"
+           customUserIdClaim="sub" 
+           customRolesClaim="authorities" />  -->
+
+</web-app>

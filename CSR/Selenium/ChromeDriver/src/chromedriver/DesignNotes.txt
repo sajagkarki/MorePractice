@@ -1,0 +1,93 @@
+Design Notes
+Last Updated by HDK - 07/08/21
+
+
+
+Design Overview
+
+The test cases for our Selenium Chromedriver Tests are designed as such.
+
+1) Create UI Element List
+
+A list of UIElement sub-classes is created. Each element sub-class has a unique set of parameters and a unique
+testing method. This test method will use the parameters to modify any available pieces of the element.
+All UIElements (Excluding those used solely to modify the interface, such as ExpansionElements) require
+a validator to test the expectations against the database.
+
+2) Execute
+
+From the test parameters it will pull .json configuration files to test against.
+The test class will then enable editing, then loop through the UIElement list created prior.
+Each element will have its test method run in the order it was added to list, allowing for control of execution order.
+
+3) Close Page
+
+In the event that no exceptions are encountered, it will then close the page.
+
+4) Validate Changes
+
+Each UIElement is fed through CompaireDB.java, which will run the elements validator against the database.
+This will print out a log showing which tests passed or failed accordingly. This validator is a lambda function 
+of the ElementValidationInterface class, and is defined at the top of the CDTest page and passed into the UIElement constructor. 
+These validators need to both record the database results in the UIElements returnedValues field and to test that 
+the database results match the intention of the element.
+
+In addition, a validator must cast the list to the appropriate list type for the class, as the interface uses a wildcard type
+to allow its usage with so many different database structures.
+
+5) Debug Printout
+
+Using the information stored within the UIElements ele, returnedValues, expectedValue, and whether the validator
+passed or failed, and .json file will be created within the ChromeDriver/JSONResults folder.
+
+Note that the system is designed to be robust and will provide other types of printouts for any encountered exceptions.
+
+
+Additional Notes on UIElements
+
+- Duplicate Instances
+Should there be duplicate objects on a page (Such as in the Bends test cases) you may tell a UIElement which instance
+of said object should be used by calling the setDesiredInstance method on the element after creation. Note that this
+begins at 0.
+
+As a result, to retain functionality, overhead is required. When searching for a UIElement by name,
+getElements().get(this.useNameInstance) is needed to be used in place of getElement().
+
+In addition, in the event that a page uses instancing, you will need to ensure that all objects of that instance type
+appear in order during the test to keep instancing consistent.
+
+- Configuration Files
+The configuration file used has two sets of parameters. Default (Common) parameters, which most of the elements will pull from,
+and Unique parameters which only certain elements use. Unique parameters are usually used for nested objects and for lists,
+which have a great variety of names and counts.
+
+If you wish to test every element with separate values you will need to modify the test and configuration files accordingly,
+by default they use the same values as often as they are capable.
+
+The files themselves work by being an object with a set of parameters, and the unique values being a List of Objects.
+This allows any type of parameter to be used in the unique values, so long as you cast and serialize it correctly.
+
+
+- Uncovered Cases
+In the event that a test case does not have a UIElement sub-type, first check if what needs doing is compatible otherwise.
+An example of this would be to enable a field who's checkbox is separate from the field in the pages heirarchy.
+
+If no such case exists, or if significant duplicate code is needed, you may also simply create a new UIElement sub-type,
+inside of UIElement.java.
+
+
+- Nested Objects
+In the event that some objects are enabled by another object, it is recommended that a control flag is used as a placeholder,
+with an if statement determining how to handle it based on that flag. This allows easy modulation of code without the need
+for dozens of UIElement object types.
+
+Be careful that instancing is maintained in these cases. (Good Example in PitAnalysisCDTest.java)
+
+
+- Debug Printing
+It is customary that a System.out.println("Working on UIElementType "+ this.elm); exists at the start of each UIElements
+run statement.
+
+
+Known Issues - 07/08/21
+- None at this time

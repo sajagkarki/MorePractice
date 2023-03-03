@@ -1,0 +1,574 @@
+{
+	"Dents Page - Test 1": {
+		"TestCase_0": {
+			"Name": "propertyWithUpdates_s",
+			"Test_Value": "NPS",
+			"DB_Value": "NPS",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "dentDepthOvality_tf",
+			"Test_Value": "1",
+			"DB_Value": "1.0",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "propertyWithUpdates_s - 1",
+			"Test_Value": "1",
+			"DB_Value": "1.0",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "propertyWithUpdates_s - 2",
+			"Test_Value": "TRUNCATE",
+			"DB_Value": "TRUNCATE",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeFailedSensor_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "appendLabelToDescriptionWhenDentClassifiedAsGouge_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "capitalizeFirstOnly_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "includeClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "addDentLabelDEF_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "addDentLabelCombo_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "addDentLabelMDS_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "value2_tf",
+			"Test_Value": "1",
+			"DB_Value": "1.0",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "setUnderSpecProperty_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "doNotclassify_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "appendUnderSpec_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "value2_tf - 1",
+			"Test_Value": "1",
+			"DB_Value": "1.0",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "topPipeOrientation_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "appendPMDDent_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "reroundedDents_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "includeDentStrain_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "includeReportUnderSpec_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "reportingFilters_dcrf",
+			"Test_Value": "FOUR, AND_BELOW, 1, mm",
+			"DB_Value": "FOUR, AND_BELOW, 1.0, mm",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "reportAllDentsWithML_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "reportAllDentsOnTop_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "appendLabel_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_25": {
+			"Name": "doNotReportDentsUnderCasings_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_26": {
+			"Name": "includeOnlyRepairedDescriptionShouldBeAdded_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_27": {
+			"Name": "digFormat_fi",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "True, Wingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_28": {
+			"Name": "appendLabels_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_29": {
+			"Name": "directMLAssociation_tf",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_30": {
+			"Name": "coincidentalMLAssociation_tf",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_31": {
+			"Name": "processMLClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_32": {
+			"Name": "withinDentBoundaries_va",
+			"Test_Value": "1",
+			"DB_Value": "1.0",
+			"Result": "Pass"
+		},
+		"TestCase_33": {
+			"Name": "units_s",
+			"Test_Value": "inch",
+			"DB_Value": "inch",
+			"Result": "Pass"
+		},
+		"TestCase_34": {
+			"Name": "appendClassification__ts",
+			"Test_Value": "ML corrosion within +/- [area]",
+			"DB_Value": "ML corrosion within +/- [area]",
+			"Result": "Pass"
+		},
+		"TestCase_35": {
+			"Name": "appendMLDepth_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_36": {
+			"Name": "processGWInteraction_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_37": {
+			"Name": "gwInteraction_rg",
+			"Test_Value": "CUSTOM_INTERACTION",
+			"DB_Value": "CUSTOM_INTERACTION",
+			"Result": "Pass"
+		},
+		"TestCase_38": {
+			"Name": "markGWCIBox_va",
+			"Test_Value": "1",
+			"DB_Value": "1.0",
+			"Result": "Pass"
+		},
+		"TestCase_39": {
+			"Name": "units_s - 1",
+			"Test_Value": "inch",
+			"DB_Value": "inch",
+			"Result": "Pass"
+		},
+		"TestCase_40": {
+			"Name": "appendGWCILabel_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_41": {
+			"Name": "changeGWDentAssociation_iwvs",
+			"Test_Value": "True, Girth",
+			"DB_Value": "True, Girth",
+			"Result": "Pass"
+		},
+		"TestCase_42": {
+			"Name": "appendManualGWILabelToDescription_iwv",
+			"Test_Value": "True, World",
+			"DB_Value": "True, World",
+			"Result": "Pass"
+		},
+		"TestCase_43": {
+			"Name": "appendManualSWILabelToDescription_iwv",
+			"Test_Value": "True, World",
+			"DB_Value": "True, World",
+			"Result": "Pass"
+		},
+		"TestCase_44": {
+			"Name": "addInteractionLES_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_45": {
+			"Name": "addInteractionRES_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_46": {
+			"Name": "includeAppendMultiApex_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_47": {
+			"Name": "dentsWithin1D_tf",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_48": {
+			"Name": "underSpecDentsWithin1D_tf",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_49": {
+			"Name": "dentsWithMultiApexUser_tf",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_50": {
+			"Name": "prependDentCount_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_51": {
+			"Name": "markRepaired_ms",
+			"Test_Value": "True, True, True, True, True, True, True, True",
+			"DB_Value": "True, True, True, True, True, True, True, True",
+			"Result": "Pass"
+		},
+		"TestCase_52": {
+			"Name": "reportRepaired_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_53": {
+			"Name": "reportLabelDent_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_54": {
+			"Name": "formattingInfo_fi",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "True, Wingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_55": {
+			"Name": "reportRepaired_rg - 1",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_56": {
+			"Name": "reportLabelDent_iwv - 1",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_57": {
+			"Name": "formattingInfo_fi - 1",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "True, Wingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_58": {
+			"Name": "reportRepaired_rg - 2",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_59": {
+			"Name": "reportLabelDent_iwv - 2",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_60": {
+			"Name": "formattingInfo_fi - 2",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "True, Wingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_61": {
+			"Name": "reportRepaired_rg - 3",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_62": {
+			"Name": "reportLabelDent_iwv - 3",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_63": {
+			"Name": "formattingInfo_fi - 3",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "True, Wingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_64": {
+			"Name": "reportRepaired_rg - 4",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_65": {
+			"Name": "reportLabelDent_iwv - 4",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_66": {
+			"Name": "formattingInfo_fi - 4",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "True, Wingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_67": {
+			"Name": "reportRepaired_rg - 5",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_68": {
+			"Name": "reportLabelDent_iwv - 5",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_69": {
+			"Name": "formattingInfo_fi - 5",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "TrueWingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_70": {
+			"Name": "reportRepaired_rg - 6",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_71": {
+			"Name": "reportLabelDent_iwv - 6",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_72": {
+			"Name": "formattingInfo_fi - 6",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "TrueWingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_73": {
+			"Name": "reportRepaired_rg - 7",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_74": {
+			"Name": "reportLabelDent_iwv - 7",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_75": {
+			"Name": "formattingInfo_fi - 7",
+			"Test_Value": "True, Wingdings, [Dig Width, Dig/Repair Number]",
+			"DB_Value": "TrueWingdings, Dig Width, Dig/Repair Number",
+			"Result": "Pass"
+		},
+		"TestCase_76": {
+			"Name": "overspeed_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_77": {
+			"Name": "degradedSensors_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_78": {
+			"Name": "degradedSensorsAndOverspeed_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_79": {
+			"Name": "degradedSensorsBeyondSpec_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_80": {
+			"Name": "overspeedBeyondSpec_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_81": {
+			"Name": "degradedSensorsAndOverspeedBeyondSpec_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_82": {
+			"Name": "dents_cl",
+			"Test_Value": "Classification, COLON, AFTER, Underspec Label, AT, BEFORE, Top of Pipe Label, COLON, AFTER, Default Label, COMMA, BEFORE_AND_AFTER, Metal Loss Association, DASH, NONE, Weld Interaction, HASH, BEFORE_AND_AFTER, Dig/Repair Info, SEMICOLON, AFTER, Repair Label, HASH, BEFORE_AND_AFTER, Correlation Notes, DASH, NONE, PMD Label, COMMA, BEFORE_AND_AFTER, Interaction Info, COLON, AFTER, Interaction with Stopples, COMMA, BEFORE_AND_AFTER, Rerounded Dent Label, DASH, NONE, MultiApex Label, HASH, AFTER, Dent Strain, SEMICOLON, BEFORE, Failed Sensor Interaction, COLON, AFTER, Dent Classified As Gouge, AT, BEFORE, Degraded Conditions, null, null",
+			"DB_Value": "Classification, COLON, AFTER, Underspec Label, AT, BEFORE, Top of Pipe Label, COLON, AFTER, Default Label, COMMA, BEFORE_AND_AFTER, Metal Loss Association, DASH, NONE, Weld Interaction, HASH, BEFORE_AND_AFTER, Dig/Repair Info, SEMICOLON, AFTER, Repair Label, HASH, BEFORE_AND_AFTER, Correlation Notes, DASH, NONE, PMD Label, COMMA, BEFORE_AND_AFTER, Interaction Info, COLON, AFTER, Interaction with Stopples, COMMA, BEFORE_AND_AFTER, Rerounded Dent Label, DASH, NONE, MultiApex Label, HASH, AFTER, Dent Strain, SEMICOLON, BEFORE, Failed Sensor Interaction, COLON, AFTER, Dent Classified As Gouge, AT, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_83": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_84": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_85": {
+			"Name": "reportTypeMFLStandAlone_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_86": {
+			"Name": "correlatePrevious_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_87": {
+			"Name": "addCorrelatedLabel_iwvs",
+			"Test_Value": "True, TDW Correlated Deformation",
+			"DB_Value": "True, TDW Correlated Deformation",
+			"Result": "Pass"
+		},
+		"TestCase_88": {
+			"Name": "appendDescriptionCase_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_89": {
+			"Name": "ifDentMarkedPrior_tf",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_90": {
+			"Name": "ifDentNotVisiblePrior_ts",
+			"Test_Value": "Not visible in prior run",
+			"DB_Value": "Not visible in prior run",
+			"Result": "Pass"
+		},
+		"TestCase_91": {
+			"Name": "ifDentVisibleNotMarkedPrior_tf",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_92": {
+			"Name": "includeMarkDentsInMFL_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_93": {
+			"Name": "addLabel_iwvs",
+			"Test_Value": "True, Possible Dent",
+			"DB_Value": "True, Possible Dent",
+			"Result": "Pass"
+		},
+		"TestCase_94": {
+			"Name": "metalLossAssociation_rg",
+			"Test_Value": "MARK_ONLY_DENTS_AT_OR_ABOVE_SPEC",
+			"DB_Value": "MARK_ONLY_DENTS_AT_OR_ABOVE_SPEC",
+			"Result": "Pass"
+		}
+	}
+}

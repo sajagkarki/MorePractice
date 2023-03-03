@@ -1,0 +1,75 @@
+{
+	"InputName": "Bends",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Greetings",
+		"defaultIWVSValue": 1,
+		"defaultSelectValue": 1,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Planet",
+		"dragListSeparatorValues": [
+			5,
+			2,
+			1,
+			3,
+			3,
+			2,
+			1
+		],
+		"dragListSeparatorOptions": [
+			1,
+			2,
+			3,
+			3,
+			2,
+			3,
+			1
+		],
+		"defaultRGValues": 0,
+		"includeStationing": false,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"AddDirectionWithLabel": false,
+		"AddProximity": false,
+		"bends_cl": [
+			"Angle",
+			"Direction",
+			"Label",
+			"Bend Radius",
+			"Classification",
+			"Stationing",
+			"Integer Angle"
+		],
+		"availableList": [
+			"Tracking Sheet",
+			"Odometer Data",
+			"Pipe Listing"
+		],
+		"selectedList": [
+			"Client Questionnaire",
+			"Alignment Maps",
+			"Previous Runs"
+		]
+	}
+}

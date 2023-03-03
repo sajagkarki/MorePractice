@@ -1,0 +1,90 @@
+{
+	"InputName": "Markers",
+	"FileCounter": 1,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 1,
+		"defaultSelectValue": 1,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "World",
+		"dragListSeparatorValues": [
+			2,
+			3,
+			0,
+			2,
+			1,
+			2,
+			3
+		],
+		"dragListSeparatorOptions": [
+			1,
+			2,
+			2,
+			3,
+			2,
+			1,
+			0
+		],
+		"defaultRGValues": 1,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"componentsOrder_cl": [
+			"Mile Posting",
+			"Marker Type",
+			"Localization",
+			"Correlation Notes",
+			"Numbering",
+			"Stationing",
+			"Marker Box"
+		],
+		"mark_availableList": [
+			"Alignment Maps",
+			"Pipe Listings"
+		],
+		"mark_selectedList": [
+			"Previous Runs",
+			"Tracking Sheet"
+		],
+		"mark2_availableList": [
+			"Alignment Maps",
+			"Pipe Listing"
+		],
+		"mark2_selectedList": [
+			"Previous Runs",
+			"Tracking Sheet"
+		],
+		"sta_availableList": [
+			"Client Questionnaire",
+			"Odometer Data",
+			"Alignment Maps"
+		],
+		"sta_selectedList": [
+			"Tracking Sheet",
+			"Pipe Listings",
+			"Previous Runs"
+		],
+		"GPSCoordinates_cb": true
+	}
+}

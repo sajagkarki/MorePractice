@@ -1,0 +1,124 @@
+{
+	"InputName": "Pits",
+	"FileCounter": 4,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 1,
+		"defaultSelectValue": 1,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "World",
+		"dragListSeparatorValues": [
+			1,
+			3,
+			5,
+			6,
+			2,
+			3,
+			4,
+			1,
+			2,
+			1,
+			0,
+			2,
+			3
+		],
+		"dragListSeparatorOptions": [
+			1,
+			1,
+			0,
+			2,
+			0,
+			3,
+			2,
+			1,
+			0,
+			2,
+			2,
+			1,
+			1
+		],
+		"defaultRGValues": 1,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"pitsReportFilters0_pt": [
+			1,
+			22
+		],
+		"pitsReportFilters1_pt": [
+			1,
+			1,
+			13,
+			0,
+			22,
+			15
+		],
+		"pitsReportFilters2_pt": [
+			0,
+			12
+		],
+		"pitsReportFilters3_pt": [
+			1,
+			0,
+			1,
+			1,
+			12,
+			13
+		],
+		"pitsReportFilters4_pt": [
+			1,
+			18
+		],
+		"pitsReportFilters5_pt": [
+			1,
+			0,
+			14,
+			0,
+			2,
+			11
+		],
+		"pitsReportFilters6_pt": [
+			1,
+			18
+		],
+		"attributeSizingTopL_iwvs": false,
+		"processGWInteraction_cb": false,
+		"gwInteraction_rg": 0,
+		"classification_rg": 0,
+		"availableList": [
+			"Dig Length"
+		],
+		"selectedList": [
+			"Dig/Repair Number",
+			"Dig Width",
+			"Dig Orientation",
+			"Dig Depth"
+		]
+	}
+}

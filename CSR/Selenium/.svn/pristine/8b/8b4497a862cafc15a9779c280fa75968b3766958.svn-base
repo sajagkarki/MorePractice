@@ -1,0 +1,36 @@
+handlers = org.apache.juli.FileHandler, java.util.logging.ConsoleHandler
+
+############################################################
+# Handler specific properties.
+# Describes specific configuration info for Handlers.
+############################################################
+
+org.apache.juli.FileHandler.level = FINE
+org.apache.juli.FileHandler.directory = ${catalina.base}/logs
+#org.apache.juli.FileHandler.prefix = ${classloader.webappName}. # This doesnt work, despite docs.
+org.apache.juli.FileHandler.prefix = CSRRest
+
+#TODO SR
+
+#BEGIN DEVOPS envy:server.prod
+#java.util.logging.ConsoleHandler.level = WARNING
+#END DEVOPS envy:server.prod
+
+#BEGIN DEVOPS envy:server.dev
+java.util.logging.ConsoleHandler.level = INFO
+#END DEVOPS envy:server.dev
+
+#BEGIN DEVOPS envy:local
+#java.util.logging.ConsoleHandler.level = FINE
+#END DEVOPS envy:local
+
+#BEGIN DEVOPS stage:debug
+#java.util.logging.ConsoleHandler.level = FINER
+#END DEVOPS stage:debug
+
+#BEGIN DEVOPS stage:trace
+#java.util.logging.ConsoleHandler.level = FINEST
+#END DEVOPS stage:trace
+
+java.util.logging.ConsoleHandler.formatter = java.util.logging.OneLineFormatter
+

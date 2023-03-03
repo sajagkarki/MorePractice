@@ -1,0 +1,51 @@
+{
+	"InputName": "HeavyWelds",
+	"FileCounter": 2,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "World",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": false,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Web",
+		"dragListSeparatorValues": [
+			0,
+			1,
+			2
+		],
+		"dragListSeparatorOptions": [
+			0,
+			0,
+			0
+		],
+		"defaultRGValues": 1,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"heavywelds_cl": [
+			"Underspec Label",
+			"Default Label",
+			"Dig/Repair Info"
+		]
+	}
+}

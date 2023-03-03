@@ -1,0 +1,34 @@
+{
+	"Girth Weld Anomaly Page - Test 2": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "includeOClockDescription_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeDepth_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Travelling",
+			"DB_Value": "Travelling",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "examples_ta",
+			"Test_Value": "Travelling",
+			"DB_Value": "Travelling",
+			"Result": "Pass"
+		}
+	}
+}

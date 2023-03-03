@@ -1,0 +1,75 @@
+{
+	"InputName": "Valves",
+	"FileCounter": 1,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 1,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "World",
+		"dragListSeparatorValues": [
+			1,
+			2,
+			3,
+			1,
+			2
+		],
+		"dragListSeparatorOptions": [
+			1,
+			2,
+			3,
+			2,
+			1
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 1,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"order_cl": [
+			"Localization",
+			"Stationing",
+			"Valve Name",
+			"Mile Posting",
+			"Valve Type"
+		],
+		"availableList": [
+			"Odometer Data",
+			"Pipe Listings",
+			"Client Questionnaire"
+		],
+		"selectedList": [
+			"Alignment Maps",
+			"Tracking Sheet",
+			"Previous Runs"
+		],
+		"smallAvailableList": [
+			"Tracking Sheet",
+			"Previous Runs"
+		],
+		"smallSelectedList": [
+			"Alignment Maps",
+			"Pipe Listing"
+		]
+	}
+}

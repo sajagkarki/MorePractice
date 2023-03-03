@@ -1,0 +1,29 @@
+package runner;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.remote.*;
+import io.appium.java_client.windows.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		protected static WindowsDriver AppSession = null;
+		private static WebElement AppResult = null;
+		public void StartDriver(String server) {
+
+
+			try {
+				DesiredCapabilities capabilities = new DesiredCapabilities();
+				capabilities.setCapability("app", "C:\\Users\\a7153\\Desktop\\P6\\P6.exe");
+				WindowsDriver winDriver = AppSession = new WindowsDriver(new URL("http://"+server+":4723"), capabilities);
+				winDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+				
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+
+	}
+
+}

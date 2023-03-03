@@ -1,0 +1,46 @@
+{
+	"Wall Thickness Page - Test 1": {
+		"TestCase_0": {
+			"Name": "defaultSMYS_tf",
+			"Test_Value": "5",
+			"DB_Value": "5.0",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "defaultSafety_tf",
+			"Test_Value": "5",
+			"DB_Value": "5.0",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeWRInForgeBends_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeWTNearValves_iwv",
+			"Test_Value": "True, 5",
+			"DB_Value": "True, 5.0",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "includeWTNearValves_iwv",
+			"Test_Value": "True, feet",
+			"DB_Value": "True, feet",
+			"Result": "Pass"
+		}
+	}
+}

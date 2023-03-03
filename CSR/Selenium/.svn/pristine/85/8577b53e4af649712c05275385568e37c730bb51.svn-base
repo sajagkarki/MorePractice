@@ -1,0 +1,52 @@
+{
+	"Marker Plates Page - Test 1": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "customDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "stationingPrefix_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "encloseStationing_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "noStationingDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "markerplates_cl",
+			"Test_Value": "Stationing, COLON, BEFORE_AND_AFTER, Label, COMMA, AFTER",
+			"DB_Value": "Stationing, COLON, BEFORE_AND_AFTER, Label, COMMA, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,58 @@
+{
+	"Debris Page - Test 1": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "includeDebrisClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "reportInOClock_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "includeBeginEndLength_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "reportSingleDebris_iwvu",
+			"Test_Value": "True, 4",
+			"DB_Value": "True, 4.0",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "reportSingleDebris_iwvu",
+			"Test_Value": "true, '",
+			"DB_Value": "True, '",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "debris_cl",
+			"Test_Value": "O'clock, COLON, BEFORE, Debris classification, AT, AFTER, Debris length, COLON, NONE",
+			"DB_Value": "O'clock, COLON, BEFORE, Debris classification, AT, AFTER, Debris length, COLON, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

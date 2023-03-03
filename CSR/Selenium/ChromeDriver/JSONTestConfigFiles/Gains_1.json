@@ -1,0 +1,62 @@
+{
+	"InputName": "Gains",
+	"FileCounter": 1,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 3,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "World",
+		"dragListSeparatorValues": [
+			1,
+			0,
+			1,
+			3,
+			2
+		],
+		"dragListSeparatorOptions": [
+			0,
+			1,
+			2,
+			1,
+			0
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"componentsOrder_cl": [
+			"Depth",
+			"Metal Object Type",
+			"Dimensions",
+			"Description",
+			"Full Circumferential"
+		],
+		"puddleWeldsComponentsOrder_cl": [
+			"Orientation",
+			"Description"
+		],
+		"includeOpeningDimensions_cb": true
+	}
+}

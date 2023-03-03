@@ -1,0 +1,52 @@
+{
+	"Mill Anomalies Page - Test 2": {
+		"TestCase_0": {
+			"Name": "includeClassification_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeReportDepth_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "includeDepth_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "addRepairDigInfoToDesc_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Depth, AT, AFTER, Dig/Repair Info, COLON, BEFORE, Classification, COLON, NONE",
+			"DB_Value": "Depth, AT, AFTER, Dig/Repair Info, COLON, BEFORE, Classification, COLON, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Trees",
+			"DB_Value": "Trees",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "examples_ta",
+			"Test_Value": "Trees",
+			"DB_Value": "Trees",
+			"Result": "Pass"
+		}
+	}
+}

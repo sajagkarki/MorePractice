@@ -1,0 +1,142 @@
+{
+	"Fittings Page - Test 3": {
+		"TestCase_0": {
+			"Name": "descriptionAllCaps_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "roundOrientation_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeFittingClassification_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "prependLabel_iwv",
+			"Test_Value": "False, Traveler",
+			"DB_Value": "False, Traveler",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "fitting_od",
+			"Test_Value": "At, 12:00, At, 9:00, @, 3:00, At, Top",
+			"DB_Value": "At, 12:00, At, 9:00, @, 3:00, At, Top",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeOrientation_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "stationingPrefix_iwv",
+			"Test_Value": "False, Traveler",
+			"DB_Value": "False, Traveler",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "encloseStationing_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "includeOpeningDimensions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "isolatedFittingsDescription_iwv",
+			"Test_Value": "False, Traveler",
+			"DB_Value": "False, Traveler",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "isolatedFittingsReinforced_iwv",
+			"Test_Value": "False, Traveler",
+			"DB_Value": "False, Traveler",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "fittingsReinforcedSleeve_iwv",
+			"Test_Value": "False, Traveler",
+			"DB_Value": "False, Traveler",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "fittingsReinforcedPAtch_iwv",
+			"Test_Value": "False, Traveler",
+			"DB_Value": "False, Traveler",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "omitLocalizationSeparator_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "roundOrientation_cl",
+			"Test_Value": "Orientation, COMMA, NONE, Classification, COLON, AFTER, Reinforcement, AT, BEFORE, Isolated Desc, COMMA, AFTER, Label, COLON, BEFORE_AND_AFTER, Dimensions, AT, BEFORE_AND_AFTER, Localization, DASH, AFTER, Stationing, COLON, BEFORE",
+			"DB_Value": "Orientation, COMMA, NONE, Classification, COLON, AFTER, Reinforcement, AT, BEFORE, Isolated Desc, COMMA, AFTER, Label, COLON, BEFORE_AND_AFTER, Dimensions, AT, BEFORE_AND_AFTER, Localization, DASH, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "markReinforcedFitting_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "markReinforcedSleeve_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "uncheckSleeveRepair_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "markReinforcedFittingPatch_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "markPatch_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "stationing_sta",
+			"Test_Value": "False, CUSTOM, Floogles, Client Questionnaire, Previous Runs, Pipe Listings, Odometer Data",
+			"DB_Value": "False, CUSTOM, Floogles, Client Questionnaire, Previous Runs, Pipe Listings, Odometer Data",
+			"Result": "Pass"
+		}
+	}
+}

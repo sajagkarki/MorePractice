@@ -1,0 +1,52 @@
+{
+	"Marker Plates Page - Test 2": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "customDescription_iwv",
+			"Test_Value": "False, I'm out of MP!",
+			"DB_Value": "False, I'm out of MP!",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "stationingPrefix_iwv",
+			"Test_Value": "False, I'm out of MP!",
+			"DB_Value": "False, I'm out of MP!",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "encloseStationing_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "noStationingDescription_iwv",
+			"Test_Value": "False, I'm out of MP!",
+			"DB_Value": "False, I'm out of MP!",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "markerplates_cl",
+			"Test_Value": "Label, COMMA, NONE, Stationing, COLON, BEFORE",
+			"DB_Value": "Label, COMMA, NONE, Stationing, COLON, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Then Use an Ether!",
+			"DB_Value": "Then Use an Ether!",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "examples_ta",
+			"Test_Value": "Then Use an Ether!",
+			"DB_Value": "Then Use an Ether!",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,51 @@
+{
+	"InputName": "Mill Anomalies",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Are Big",
+		"dragListSeparatorValues": [
+			3,
+			2,
+			1
+		],
+		"dragListSeparatorOptions": [
+			2,
+			2,
+			1
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"componentsOrder_cl": [
+			"Depth",
+			"Classification",
+			"Dig/Repair Info"
+		]
+	}
+}

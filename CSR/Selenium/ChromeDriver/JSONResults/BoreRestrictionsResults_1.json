@@ -1,0 +1,52 @@
+{
+	"BoreRestrictions Page - Test 1": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "addLabel_iwvs",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeReportMinBoreDiameter_iwv",
+			"Test_Value": "True, 0",
+			"DB_Value": "True, 0.0",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "includeReportMinSecantBoreDiameter_iwv",
+			"Test_Value": "True, 0",
+			"DB_Value": "True, 0.0",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeLabelToSecantBoreDiameter_iwv",
+			"Test_Value": "True, 0",
+			"DB_Value": "True, 0",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "bore_cl",
+			"Test_Value": "Minimum Secant, COLON, BEFORE, Minimum Bore, AT, AFTER, Default Label, COLON, BEFORE_AND_AFTER, Reference, COMMA, NONE",
+			"DB_Value": "Minimum Secant, COLON, BEFORE, Minimum Bore, AT, AFTER, Default Label, COLON, BEFORE_AND_AFTER, Reference, COMMA, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+	"InputName": "Casings",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Greetings",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 2,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Service",
+		"dragListSeparatorValues": [
+			5,
+			4,
+			3
+		],
+		"dragListSeparatorOptions": [
+			0,
+			0,
+			0
+		],
+		"defaultRGValues": 2,
+		"includeStationing": false,
+		"stationingSelection": 1,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"componentsOrderBegin_cl": [
+			"Localization",
+			"Name",
+			"Stationing"
+		],
+		"componentOrderSpacers_cl": [
+			"Localization",
+			"Classification",
+			"Series Description"
+		],
+		"availableList": [
+			"Client Questionnaire",
+			"Alignment Maps",
+			"Tracking Sheet"
+		],
+		"selectedList": [
+			"Previous Runs",
+			"Pipe Listing",
+			"Odometer Data"
+		]
+	}
+}

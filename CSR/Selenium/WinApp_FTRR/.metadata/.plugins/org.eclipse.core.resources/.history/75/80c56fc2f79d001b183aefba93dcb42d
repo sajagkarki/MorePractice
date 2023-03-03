@@ -1,0 +1,25 @@
+package userFunctions;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+import runner.Setup;
+
+public class ElementTools extends Setup {
+
+	public void dropDownListSelect(WebElement e, String selectItem) {
+
+		e.click();
+		List<WebElement> children = e.findElements(By.xpath("//ListItem"));
+
+		for (WebElement child : children) {
+			 System.out.println(child.getAttribute("Name"));
+			if (child.getAttribute("Name").toString().equals(selectItem)) {
+				child.click();
+			}
+		}
+
+	}
+}

@@ -1,0 +1,100 @@
+{
+	"InputName": "Dents",
+	"FileCounter": 2,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Greetings",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "WideWeb",
+		"dragListSeparatorValues": [
+			3,
+			5,
+			3,
+			1,
+			2,
+			3,
+			1,
+			0,
+			0,
+			3,
+			4,
+			2,
+			1,
+			2,
+			4,
+			3,
+			1
+		],
+		"dragListSeparatorOptions": [
+			2,
+			3,
+			1,
+			1,
+			2,
+			3,
+			0,
+			0,
+			0,
+			1,
+			2,
+			3,
+			2,
+			2,
+			2,
+			2,
+			3
+		],
+		"defaultRGValues": 1,
+		"includeStationing": false,
+		"stationingSelection": 2,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": false,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		]
+	},
+	"uniqueValues": {
+		"reportAllDentsOnTop_cb": true,
+		"appendLabels_cb": true,
+		"processMLClassification_cb": true,
+		"processGWInteraction_cb": true,
+		"includeAppendMultiApex_cb": true,
+		"appendDescriptionCase_cb": true,
+		"includeMarkDentsInMFL_cb": true,
+		"reportingFilters_dcrf": [
+			1,
+			0,
+			1
+		],
+		"availableList": [
+			"Dig Length",
+			"Dig Depth",
+			"Dig Orientation"
+		],
+		"selectedList": [
+			"Dig/Repair Number",
+			"Dig Width"
+		]
+	}
+}

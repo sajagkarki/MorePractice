@@ -1,0 +1,154 @@
+{
+	"Fittings Page - Test 2": {
+		"TestCase_0": {
+			"Name": "descriptionAllCaps_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "roundOrientation_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeFittingClassification_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "prependLabel_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "fitting_od",
+			"Test_Value": "@, Bottom, at, 270, At, 90, On, Bottom",
+			"DB_Value": "@, Bottom, at, 270, At, 90, On, Bottom",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeOrientation_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "stationingPrefix_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "encloseStationing_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "includeOpeningDimensions_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "roundOrientation_iwv",
+			"Test_Value": "False, 2",
+			"DB_Value": "False, 2.0",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "roundOrientation_iwv",
+			"Test_Value": "mm",
+			"DB_Value": "mm",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "isolatedFittingsDescription_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "isolatedFittingsReinforced_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "fittingsReinforcedSleeve_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "fittingsReinforcedPAtch_iwv",
+			"Test_Value": "False, Fellow",
+			"DB_Value": "False, Fellow",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "omitLocalizationSeparator_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "roundOrientation_cl",
+			"Test_Value": "Isolated Desc, COMMA, NONE, Reinforcement, DASH, BEFORE_AND_AFTER, Orientation, COLON, AFTER, Dimensions, COMMA, AFTER, Label, COLON, BEFORE_AND_AFTER, Localization, COMMA, BEFORE, Classification, AT, BEFORE_AND_AFTER, Stationing, COMMA, AFTER",
+			"DB_Value": "Isolated Desc, COMMA, NONE, Reinforcement, DASH, BEFORE_AND_AFTER, Orientation, COLON, AFTER, Dimensions, COMMA, AFTER, Label, COLON, BEFORE_AND_AFTER, Localization, COMMA, BEFORE, Classification, AT, BEFORE_AND_AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "markReinforcedFitting_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "markReinforcedSleeve_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "uncheckSleeveRepair_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "markReinforcedFittingPatch_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "markPatch_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "stationing_sta",
+			"Test_Value": "True, IMPERIAL, Furlongs, Pipe Listings",
+			"DB_Value": "True, IMPERIAL, Floogles, Pipe Listings",
+			"Result": "Pass"
+		}
+	}
+}

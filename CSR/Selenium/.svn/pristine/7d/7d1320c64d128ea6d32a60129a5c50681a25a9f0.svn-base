@@ -1,0 +1,118 @@
+{
+	"Casings Page - Test 3": {
+		"TestCase_0": {
+			"Name": "beginCasing_iwv",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "staPrefix_iwv",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "encloseSta_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "omitLocalizationSeparatorBegin_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "componentsOrderBegin_cl",
+			"Test_Value": "Localization, SEMICOLON, BEFORE, Name, HASH, BEFORE, Stationing, DASH, BEFORE",
+			"DB_Value": "Localization, SEMICOLON, BEFORE, Name, HASH, BEFORE, Stationing, DASH, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "endCasing_iwv",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "staPrefixEnd_iwv",
+			"Test_Value": "False, Greetings",
+			"DB_Value": "False, Greetings",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "encloseStaEnd_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "omitLocalizationSeparatorEnd_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "componentsOrderEnd_cl",
+			"Test_Value": "Localization, SEMICOLON, BEFORE, Name, HASH, BEFORE, Stationing, DASH, BEFORE",
+			"DB_Value": "Localization, SEMICOLON, BEFORE, Name, HASH, BEFORE, Stationing, DASH, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "includeClassification_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "omitLocalizationSeparator_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "reportingType_rg",
+			"Test_Value": "ALL_IN_SERIES",
+			"DB_Value": "ALL_IN_SERIES",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "allInSeriesLabelDesc_s",
+			"Test_Value": "Spacer - [X] of [Y]",
+			"DB_Value": "Spacer - [X] of [Y]",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "componentOrderSpacers_cl",
+			"Test_Value": "Localization, SEMICOLON, BEFORE, Classification, HASH, BEFORE, Series Description, DASH, BEFORE",
+			"DB_Value": "Localization, SEMICOLON, BEFORE, Classification, HASH, BEFORE, Series Description, DASH, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Service",
+			"DB_Value": "Service",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "examples_ta",
+			"Test_Value": "Service",
+			"DB_Value": "Service",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "addLocalizations_iwvs",
+			"Test_Value": "false, On Both, begin and end casings",
+			"DB_Value": "False, On Both, begin and end casings",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "stationing_sta",
+			"Test_Value": "False, IMPERIAL, Furlongs, Previous Runs, Pipe Listing, Odometer Data",
+			"DB_Value": "False, IMPERIAL, Furlongs, Previous Runs, Pipe Listing, Odometer Data",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,106 @@
+{
+	"Pit Analysis Page - Test 3": {
+		"TestCase_0": {
+			"Name": "pitAnalysis_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Astral Body",
+			"DB_Value": "Astral Body",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "primaryAnalysis_rg",
+			"Test_Value": "SPECIAL",
+			"DB_Value": "SPECIAL",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "displayAnalysis_rg",
+			"Test_Value": "ALL_PITS",
+			"DB_Value": "ALL_PITS",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "reviewHandSize_rg",
+			"Test_Value": "TOP_CLEANED_UP",
+			"DB_Value": "TOP_CLEANED_UP",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeAttributeSizing_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "includeMDSRuns_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "finalAnalysis_rg",
+			"Test_Value": "SPECIAL",
+			"DB_Value": "SPECIAL",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "displayFinalAnalysis_iwc",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "displayFinalAnalysis_tf",
+			"Test_Value": "1",
+			"DB_Value": "1",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "displayFinalAnalysis_iwc",
+			"Test_Value": "True, NOT_EQUAL_TO",
+			"DB_Value": "True, NOT_EQUAL_TO",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "displayFinalAnalysis_iwc - 1",
+			"Test_Value": "True, NOT_EQUAL_TO",
+			"DB_Value": "True, NOT_EQUAL_TO",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "displayFinalAnalysis_cv",
+			"Test_Value": "1",
+			"DB_Value": "1",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "displayFinalAnalysis_cv",
+			"Test_Value": "NOT_EQUAL_TO",
+			"DB_Value": "NOT_EQUAL_TO",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "displayFinalAnalysis_iwc - 1",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "includeAttributeSizing_cb - 1",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "includeMDSRuns_cb - 1",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		}
+	}
+}

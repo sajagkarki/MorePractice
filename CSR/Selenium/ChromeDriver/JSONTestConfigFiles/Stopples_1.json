@@ -1,0 +1,77 @@
+{
+	"InputName": "Stopples",
+	"FileCounter": 1,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		],
+		"defaultTextValue": "World",
+		"dragListSeparatorValues": [
+			1,
+			2,
+			3,
+			4,
+			5
+		],
+		"dragListSeparatorOptions": [
+			2,
+			1,
+			3,
+			2,
+			1
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 2,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"componentsOrder_cl": [
+			"Stationing",
+			"Repair/Dig",
+			"Dimensions",
+			"Localization",
+			"Orientation"
+		],
+		"addDimensions_cb": true,
+		"availableList": [
+			"Pipe Listing",
+			"Client Questionnaire",
+			"Odometer Data"
+		],
+		"selectedList": [
+			"Tracking Sheet",
+			"Alignment Maps",
+			"Previous Runs"
+		],
+		"data_availableList": [
+			"Dig Depth"
+		],
+		"data_selectedList": [
+			"Dig Width",
+			"Dig Length",
+			"Dig Orientation",
+			"Dig/Repair Number"
+		]
+	}
+}

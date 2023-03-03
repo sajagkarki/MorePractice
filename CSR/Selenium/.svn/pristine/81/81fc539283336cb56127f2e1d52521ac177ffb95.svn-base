@@ -1,0 +1,51 @@
+{
+	"InputName": "Debris",
+	"FileCounter": 2,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 5,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Vikings",
+		"dragListSeparatorValues": [
+			5,
+			2,
+			4
+		],
+		"dragListSeparatorOptions": [
+			1,
+			2,
+			1
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"debris_cl": [
+			"O'clock",
+			"Debris classification",
+			"Debris length"
+		]
+	}
+}

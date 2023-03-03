@@ -1,0 +1,34 @@
+{
+	"Liquid Reports Repairs Page - Test 2": {
+		"TestCase_0": {
+			"Name": "measurementsUnits_ts",
+			"Test_Value": "Imperial",
+			"DB_Value": "Imperial",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "pressureUnits_ts",
+			"Test_Value": "PSI",
+			"DB_Value": "PSI",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "temperatureUnits_ts",
+			"Test_Value": "Fahrenheit",
+			"DB_Value": "Fahrenheit",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "includeGPS_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeMapping_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		}
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"InputName": "Fittings",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Traveler",
+		"defaultIWVSValue": 3,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": false,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "World",
+		"dragListSeparatorValues": [
+			2,
+			1,
+			0,
+			2,
+			1,
+			0,
+			3,
+			1,
+			0
+		],
+		"dragListSeparatorOptions": [
+			3,
+			1,
+			0,
+			1,
+			2,
+			2,
+			1,
+			0,
+			1
+		],
+		"defaultRGValues": 0,
+		"includeStationing": false,
+		"stationingSelection": 2,
+		"customStationingValue": "Floogles",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"includeOpeningDimensions_cb": false,
+		"roundOrientation_cl": [
+			"Orientation",
+			"Classification",
+			"Reinforcement",
+			"Isolated Desc",
+			"Label",
+			"Dimensions",
+			"Localization",
+			"Stationing"
+		],
+		"availableList": [
+			"Alignment Maps",
+			"Tracking Sheet"
+		],
+		"selectedList": [
+			"Client Questionnaire",
+			"Previous Runs",
+			"Pipe Listings",
+			"Odometer Data"
+		]
+	}
+}

@@ -1,0 +1,16 @@
+package runner;
+
+
+public class ElementTools extends Setup {
+
+	public void dropDownListSelect() {
+		List<WebElement> children = INS_Tech_DD.findElements(By.xpath("//ListItem") );
+		
+		for (WebElement child : children) {
+			System.out.println(child.getAttribute("Name"));
+			if (child.getAttribute("Name").toString().equals("Andy Wint")) {
+				child.click();
+			}
+	}
+	
+}

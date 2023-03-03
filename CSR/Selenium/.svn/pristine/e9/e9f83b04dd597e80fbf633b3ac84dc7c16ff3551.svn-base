@@ -1,0 +1,82 @@
+{
+	"PipeSupports Page - Test 2": {
+		"TestCase_0": {
+			"Name": "descriptionAllCaps_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "addBegLabel_iwv",
+			"Test_Value": "False, Salutations",
+			"DB_Value": "False, Salutations",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "maximumDistance_va",
+			"Test_Value": "0",
+			"DB_Value": "0.0",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "units_s",
+			"Test_Value": "ft",
+			"DB_Value": "ft",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "excludeFromSeriesIfNearValve_iwv",
+			"Test_Value": "False, 0",
+			"DB_Value": "False, 0.0",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "excludeFromSeriesIfNearValve_iwv",
+			"Test_Value": "False, in",
+			"DB_Value": "False, in",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "reportingType_rg",
+			"Test_Value": "FIRST_AND_LAST",
+			"DB_Value": "FIRST_AND_LAST",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "firstAndLastLabel_s",
+			"Test_Value": "Begin [Classification] / End [Classification]",
+			"DB_Value": "Begin [Classification] / End [Classification]",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "reportOnlyFirstAndLast_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "addEndLabel_iwv",
+			"Test_Value": "False, Salutations",
+			"DB_Value": "False, Salutations",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "includeReportAnchors_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Class",
+			"DB_Value": "Class",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "examples_ta",
+			"Test_Value": "Class",
+			"DB_Value": "Class",
+			"Result": "Pass"
+		}
+	}
+}

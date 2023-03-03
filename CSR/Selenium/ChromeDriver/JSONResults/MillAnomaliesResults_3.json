@@ -1,0 +1,34 @@
+{
+	"Mill Anomalies Page - Test 3": {
+		"TestCase_0": {
+			"Name": "includeClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "reportType_rg",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Depth, DASH, BEFORE_AND_AFTER, Classification, COMMA, BEFORE_AND_AFTER, Dig/Repair Info, COLON, AFTER",
+			"DB_Value": "Depth, DASH, BEFORE_AND_AFTER, Classification, COMMA, BEFORE_AND_AFTER, Dig/Repair Info, COLON, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Are Big",
+			"DB_Value": "Are Big",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "examples_ta",
+			"Test_Value": "Are Big",
+			"DB_Value": "Are Big",
+			"Result": "Pass"
+		}
+	}
+}

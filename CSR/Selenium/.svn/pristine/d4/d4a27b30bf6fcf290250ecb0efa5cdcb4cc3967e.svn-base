@@ -1,0 +1,82 @@
+{
+	"Gains Page - Test 3": {
+		"TestCase_0": {
+			"Name": "prefixGainLabel_iwv",
+			"Test_Value": "False, Traveller",
+			"DB_Value": "False, Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "filterGauss_iwv",
+			"Test_Value": "False, 1",
+			"DB_Value": "False, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "showDepth_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "fullCircLabel_iwv",
+			"Test_Value": "False, Traveller",
+			"DB_Value": "False, Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeMetalObjectType_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeOpeningDimensions_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Description, DASH, BEFORE, Depth, COMMA, BEFORE, Metal Object Type, DASH, AFTER, Full Circumferential, AT, NONE, Dimensions, AT, BEFORE_AND_AFTER",
+			"DB_Value": "Description, DASH, BEFORE, Depth, COMMA, BEFORE, Metal Object Type, DASH, AFTER, Full Circumferential, AT, NONE, Dimensions, AT, BEFORE_AND_AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "prefixLabel_iwv",
+			"Test_Value": "False, Traveller",
+			"DB_Value": "False, Traveller",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "orientationInOClock_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "showPuddleDepth_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "puddleWeldsComponentsOrder_cl",
+			"Test_Value": "Orientation, DASH, BEFORE, Description, COMMA, BEFORE",
+			"DB_Value": "Orientation, DASH, BEFORE, Description, COMMA, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

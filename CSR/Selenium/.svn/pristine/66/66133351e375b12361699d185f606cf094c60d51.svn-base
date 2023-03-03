@@ -1,0 +1,106 @@
+{
+	"Sleeves Repairs Page - Test 2": {
+		"TestCase_0": {
+			"Name": "includeReport_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "nameToDescRepair_iwv",
+			"Test_Value": "False, Hola",
+			"DB_Value": "False, Hola",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "nameToDescReinforcement_iwv",
+			"Test_Value": "False, Hola",
+			"DB_Value": "False, Hola",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "nameToDescWeldWrap_iwv",
+			"Test_Value": "False, Hola",
+			"DB_Value": "False, Hola",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "nameToReinforcedFittingSleeves_iwv",
+			"Test_Value": "False, Hola",
+			"DB_Value": "False, Hola",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "includeSleeveLengthToDesc_ivs",
+			"Test_Value": "True, ft",
+			"DB_Value": "True, ft",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "includeRoundLengthToX_iwv",
+			"Test_Value": "False, 0",
+			"DB_Value": "False, 0",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "maxDistance_vu",
+			"Test_Value": "False, 0",
+			"DB_Value": "False, 0.0",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "maxDistance_vu",
+			"Test_Value": "False, in",
+			"DB_Value": "False, in",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "maxDistance_vu - 1",
+			"Test_Value": "0",
+			"DB_Value": "0.0",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "maxDistance_vu - 1",
+			"Test_Value": "ft",
+			"DB_Value": "ft",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "reportingType_rg",
+			"Test_Value": "FIRST_AND_LAST",
+			"DB_Value": "FIRST_AND_LAST",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "displayBeginEnd_iwvs",
+			"Test_Value": "False, [X] of [Y]",
+			"DB_Value": "False, [X] of [Y]",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Name, COMMA, AFTER, Sleeve Length, COMMA, AFTER, Repair/Dig, COLON, BEFORE_AND_AFTER, Series Label, COLON, BEFORE_AND_AFTER",
+			"DB_Value": "Name, COMMA, AFTER, Sleeve Length, COMMA, AFTER, Repair/Dig, COLON, BEFORE_AND_AFTER, Series Label, COLON, BEFORE_AND_AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Wide",
+			"DB_Value": "Wide",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "examples_ta",
+			"Test_Value": "Wide",
+			"DB_Value": "Wide",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "formattingInfo_fi",
+			"Test_Value": "False, Wingdings, [Dig Length, Dig/Repair Number]",
+			"DB_Value": "False, Wingdings, Dig Length, Dig/Repair Number",
+			"Result": "Pass"
+		}
+	}
+}

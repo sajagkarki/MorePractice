@@ -1,0 +1,46 @@
+{
+	"Possible Composite Repairs Page - Test 1": {
+		"TestCase_0": {
+			"Name": "includBeginEndSeparately_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "nameToDesc_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeLengthToDesc_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "propertyWithUpdates_cl",
+			"Test_Value": "Repair/Dig, COLON, BEFORE, Composite Length, AT, AFTER, Name, AT, AFTER",
+			"DB_Value": "Repair/Dig, COLON, BEFORE, Composite Length, AT, AFTER, Name, AT, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "digInfo_fi",
+			"Test_Value": "True, Wingdings, [Dig Depth, Dig Width]",
+			"DB_Value": "True, Wingdings, Dig Depth, Dig Width",
+			"Result": "Pass"
+		}
+	}
+}

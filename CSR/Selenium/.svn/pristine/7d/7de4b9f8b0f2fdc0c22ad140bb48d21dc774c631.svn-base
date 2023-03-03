@@ -1,0 +1,61 @@
+package runner;
+
+import java.net.URL;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.*;
+import io.appium.java_client.windows.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		StartDriver("127.0.0.1");
+	}
+
+	// TODO Auto-generated method stub
+	protected static WindowsDriver AppSession = null;
+	private static WebElement AppResult = null;
+
+	public static void StartDriver(String server) {
+
+		try {
+			DesiredCapabilities capabilities = new DesiredCapabilities();
+			capabilities.setCapability("app", "C:\\Users\\a7153\\Desktop\\Debug\\FieldTechNew.exe");
+			WindowsDriver winDriver = AppSession = new WindowsDriver(new URL("http://" + server + ":4723"),
+					capabilities);
+			winDriver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+			
+			
+			WebElement openDD = AppSession.findElementByAccessibilityId("comboBox");
+			openDD.click();
+			
+			AppSession.findElementByName("H10PUL01.fdb").click();
+			
+			AppSession.findElementByAccessibilityId("PM_DD").click();
+			AppSession.findElementByName("Alex Blayden").click();
+			
+			AppSession.findElementByAccessibilityId("PM_DD").click();
+			AppSession.findElementByName("Alex Blayden").click();
+			
+			
+			//do not delete, this gets the children of a list dropdown
+			//List<WebElement> children = openDD.findElements(By.xpath("//ListItem") );
+
+			//for (WebElement child : children) {
+			//	System.out.println(child.getAttribute("Text"));
+			//}
+				
+					
+			//AppSession.findElementByName("JumpToDistance_Btn").click();
+			//AppSession.findElementByName("OK Enter").click();
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}
+
+}

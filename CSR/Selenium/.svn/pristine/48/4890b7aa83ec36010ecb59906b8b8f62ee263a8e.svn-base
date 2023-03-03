@@ -1,0 +1,22 @@
+{
+	"Buckles Page - Test 2": {
+		"TestCase_0": {
+			"Name": "excludeBuckles_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Traveler",
+			"DB_Value": "Traveler",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "examples_ta",
+			"Test_Value": "Traveler",
+			"DB_Value": "Traveler",
+			"Result": "Pass"
+		}
+	}
+}

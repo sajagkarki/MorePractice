@@ -1,0 +1,56 @@
+{
+	"InputName": "BoreRestrictions",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Traveller",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "The Moon",
+		"dragListSeparatorValues": [
+			3,
+			3,
+			3,
+			3
+		],
+		"dragListSeparatorOptions": [
+			2,
+			2,
+			2,
+			2
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"includeReportMinSecantBoreDiameter_iwv": false,
+		"bore_cl": [
+			"Minimum Bore",
+			"Default Label",
+			"Minimum Secant",
+			"Reference"
+		]
+		
+	}
+}

@@ -1,0 +1,64 @@
+{
+	"InputName": "Sleeves",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Greetings",
+		"defaultIWVSValue": 1,
+		"defaultSelectValue": 1,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Web",
+		"dragListSeparatorValues": [
+			2,
+			1,
+			1,
+			2
+		],
+		"dragListSeparatorOptions": [
+			1,
+			2,
+			1,
+			2
+		],
+		"defaultRGValues": 2,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Furlongs",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"componentsOrder_cl": [
+			"Sleeve Length",
+			"Repair/Dig",
+			"Series Label",
+			"Name"
+		],
+		"availableList": [
+			"Dig Orientation"
+		],
+		"selectedList": [
+			"Dig Width",
+			"Dig Length",
+			"Dig Depth",
+			"Dig/Repair Number"
+		],
+		"includeSleeveLengthToDesc_ivs": false
+	}
+}

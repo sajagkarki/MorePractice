@@ -1,0 +1,52 @@
+{
+	"InputName": "Patches",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Greeting",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "Classy",
+		"dragListSeparatorValues": [
+			0,
+			3,
+			5
+		],
+		"dragListSeparatorOptions": [
+			2,
+			3,
+			0
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"patchesComponents_cl": [
+			"Dimensions",
+			"O'clock",
+			"Label"
+		],
+		"includeDimensions_cb": false
+	}
+}

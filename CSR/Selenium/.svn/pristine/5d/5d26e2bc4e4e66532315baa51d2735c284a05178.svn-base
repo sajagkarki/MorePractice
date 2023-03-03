@@ -1,0 +1,46 @@
+{
+	"Recoats Page - Test 1": {
+		"TestCase_0": {
+			"Name": "begCustomDesc_iwv",
+			"Test_Value": "True, Recoat",
+			"DB_Value": "True, Recoat",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "beginComponents_cl",
+			"Test_Value": "Repair/Dig Info, COMMA, BEFORE_AND_AFTER, Name, DASH, NONE",
+			"DB_Value": "Repair/Dig Info, COMMA, BEFORE_AND_AFTER, Name, DASH, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "endCustomDesc_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "endComponents_cl",
+			"Test_Value": "Repair/Dig Info, COMMA, BEFORE_AND_AFTER, Name, DASH, NONE",
+			"DB_Value": "Repair/Dig Info, COMMA, BEFORE_AND_AFTER, Name, DASH, NONE",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "recoats_fi",
+			"Test_Value": "True, Wingdings, [Dig Orientation, Dig Depth, Dig Width]",
+			"DB_Value": "True, Wingdings, Dig Orientation, Dig Depth, Dig Width",
+			"Result": "Pass"
+		}
+	}
+}

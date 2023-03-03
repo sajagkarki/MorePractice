@@ -1,0 +1,76 @@
+{
+	"Ovalities Page - Test 2": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "customDesc_iwv",
+			"Test_Value": "False, 0",
+			"DB_Value": "False, 0",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "propertyWithUpdates_s",
+			"Test_Value": "APS",
+			"DB_Value": "APS",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "filterOutWhenDepthIsLessThan_ivw",
+			"Test_Value": "False, 0",
+			"DB_Value": "False, 0",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "includeReportUnderSpeco_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "setUnderSpecProperty_iwv",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "doNotclassify_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "appendUnderSpec_iwv",
+			"Test_Value": "False, Persons",
+			"DB_Value": "False, Persons",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "addDigInfo_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "ovalities_cl",
+			"Test_Value": "Dig/Repair Info, DASH, BEFORE_AND_AFTER, Default Label, COLON, AFTER, Underspec Label, AT, BEFORE_AND_AFTER",
+			"DB_Value": "Dig/Repair Info, DASH, BEFORE_AND_AFTER, Default Label, COLON, AFTER, Underspec Label, AT, BEFORE_AND_AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Class",
+			"DB_Value": "Class",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "examples_ta",
+			"Test_Value": "Class",
+			"DB_Value": "Class",
+			"Result": "Pass"
+		}
+	}
+}

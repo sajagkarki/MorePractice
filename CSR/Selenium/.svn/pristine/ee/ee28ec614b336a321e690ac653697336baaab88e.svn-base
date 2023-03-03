@@ -1,0 +1,454 @@
+{
+	"Pits Page - Test 4": {
+		"TestCase_0": {
+			"Name": "addClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "metalLossAbbreviation_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "corrosionAbbreviation_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "mfgAbbreviation_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "girthWeldAnomalyAbbreviation_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "circumferentialPlanarAbbreviation_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "appendLabelToDescriptionOnPMDPits_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "appendLabelToDescriptionWhenPitClassifiedAsGouge_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "includeIDODDiscriminationProximity_iwvs",
+			"Test_Value": "INT/EXT",
+			"DB_Value": "INT/EXT",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "includeOnlyRepairedDescriptionShouldBeAdded_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "addRepairDigInfoToDescForAllRepairedPits_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "includeFailedSensor_iwv",
+			"Test_Value": "True, Failed Intersect",
+			"DB_Value": "True, Failed Intersect",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "FILTER, LESS_THAN_OR_EQUAL_TO, 22",
+			"DB_Value": "FILTER, LESS_THAN_OR_EQUAL_TO, 22",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "ROUND, ROUND_DOWN, GREATER_THAN_OR_EQUAL_TO, 13, LESS_THAN, 22, 15",
+			"DB_Value": "ROUND, ROUND_DOWN, GREATER_THAN_OR_EQUAL_TO, 13, LESS_THAN, 22, 15",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "FILTER, LESS_THAN, 12",
+			"DB_Value": "FILTER, LESS_THAN, 12",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "ROUND, ROUND_DOWN, GREATER_THAN, 1, LESS_THAN_OR_EQUAL_TO, 12, 13",
+			"DB_Value": "ROUND, ROUND_DOWN, GREATER_THAN, 1, LESS_THAN_OR_EQUAL_TO, 12, 13",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "ROUND, ROUND_DOWN, GREATER_THAN, 14, LESS_THAN, 2, 11",
+			"DB_Value": "ROUND, ROUND_DOWN, GREATER_THAN, 14, LESS_THAN, 2, 11",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "pitsReportFilters_pt",
+			"Test_Value": "FILTER, LESS_THAN_OR_EQUAL_TO, 18",
+			"DB_Value": "FILTER, LESS_THAN_OR_EQUAL_TO, 18",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "allPitsAssociated_iwv",
+			"Test_Value": "True, Hello World",
+			"DB_Value": "True, Hello World",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "markAsRepaired_ms",
+			"Test_Value": "True, True, True, True, True, True, True, True",
+			"DB_Value": "True, True, True, True, True, True, True, True",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "reportType_rg",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "overridePitDepth_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "defaultDescription_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "addRepairDigInfoPit_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "reportType_rg - 1",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_25": {
+			"Name": "overridePitDepth_iwv - 1",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_26": {
+			"Name": "defaultDescription_iwv - 1",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_27": {
+			"Name": "addRepairDigInfoPit_cb - 1",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_28": {
+			"Name": "reportType_rg - 2",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_29": {
+			"Name": "overridePitDepth_iwv - 2",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_30": {
+			"Name": "defaultDescription_iwv - 2",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_31": {
+			"Name": "addRepairDigInfoPit_cb - 2",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_32": {
+			"Name": "reportType_rg - 3",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_33": {
+			"Name": "overridePitDepth_iwv - 3",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_34": {
+			"Name": "defaultDescription_iwv - 3",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_35": {
+			"Name": "addRepairDigInfoPit_cb - 3",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_36": {
+			"Name": "reportType_rg - 4",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_37": {
+			"Name": "overridePitDepth_iwv - 4",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_38": {
+			"Name": "defaultDescription_iwv - 4",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_39": {
+			"Name": "addRepairDigInfoPit_cb - 4",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_40": {
+			"Name": "reportType_rg - 5",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_41": {
+			"Name": "overridePitDepth_iwv - 5",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_42": {
+			"Name": "defaultDescription_iwv - 5",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_43": {
+			"Name": "addRepairDigInfoPit_cb - 5",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_44": {
+			"Name": "reportType_rg - 6",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_45": {
+			"Name": "overridePitDepth_iwv - 6",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_46": {
+			"Name": "defaultDescription_iwv - 6",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_47": {
+			"Name": "addRepairDigInfoPit_cb - 6",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_48": {
+			"Name": "reportType_rg - 7",
+			"Test_Value": "REPORT",
+			"DB_Value": "REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_49": {
+			"Name": "overridePitDepth_iwv - 7",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_50": {
+			"Name": "defaultDescription_iwv - 7",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_51": {
+			"Name": "addRepairDigInfoPit_cb - 7",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_52": {
+			"Name": "reportWithAmplitudes_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_53": {
+			"Name": "reportWithDepth_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_54": {
+			"Name": "attributeSizingTopL_iwvs",
+			"Test_Value": "True, Manufacturing Defect",
+			"DB_Value": "False, Manufacturing Defect",
+			"Result": "Pass"
+		},
+		"TestCase_55": {
+			"Name": "appendDiscrimination_iwvs",
+			"Test_Value": "True, INT / EXT",
+			"DB_Value": "True, INT / EXT",
+			"Result": "Pass"
+		},
+		"TestCase_56": {
+			"Name": "appendOrientation_iwvs",
+			"Test_Value": "True, O'clock",
+			"DB_Value": "True, O'clock",
+			"Result": "Pass"
+		},
+		"TestCase_57": {
+			"Name": "processGWInteraction_cb",
+			"Test_Value": "False",
+			"DB_Value": "False",
+			"Result": "Pass"
+		},
+		"TestCase_58": {
+			"Name": "appendLabelWhenInSeam_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_59": {
+			"Name": "overspeed_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_60": {
+			"Name": "degradedSensors_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_61": {
+			"Name": "degradedSensorsAndOverspeed_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_62": {
+			"Name": "degradedSensorsBeyondSpec_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_63": {
+			"Name": "overspeedBeyondSpec_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_64": {
+			"Name": "degradedSensorsAndOverspeedBeyondSpec_iwvtf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_65": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Pit/Dent Association Label, COLON, AFTER, Dig/Repair Info, DASH, AFTER, Classification, SEMICOLON, BEFORE, Repair Label, FORWARD_SLASH, BEFORE_AND_AFTER, Interaction Info, COMMA, BEFORE, IDOD Discrimination, DASH, NONE, Mill Anomaly Discrimination, HASH, BEFORE_AND_AFTER, Mill Anomaly Orientation, COLON, AFTER, PMD Label, COMMA, BEFORE, Weld Interaction, COLON, BEFORE_AND_AFTER, Pit Classified As Gouge, AT, BEFORE_AND_AFTER, Failed Sensor Interaction, COMMA, AFTER, In Seam Label, DASH, AFTER, Degraded Conditions, null, null",
+			"DB_Value": "Pit/Dent Association Label, COLON, AFTER, Dig/Repair Info, DASH, AFTER, Classification, SEMICOLON, BEFORE, Repair Label, FORWARD_SLASH, BEFORE_AND_AFTER, Interaction Info, COMMA, BEFORE, IDOD Discrimination, DASH, NONE, Mill Anomaly Discrimination, HASH, BEFORE_AND_AFTER, Mill Anomaly Orientation, COLON, AFTER, PMD Label, COMMA, BEFORE, Weld Interaction, COLON, BEFORE_AND_AFTER, Pit Classified As Gouge, AT, BEFORE_AND_AFTER, Failed Sensor Interaction, COMMA, AFTER, In Seam Label, DASH, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_66": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_67": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_68": {
+			"Name": "classification_rg",
+			"Test_Value": "DEFAULT",
+			"DB_Value": "DEFAULT",
+			"Result": "Pass"
+		},
+		"TestCase_69": {
+			"Name": "updateComponent_c",
+			"Test_Value": "True, Wingdings, [Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_70": {
+			"Name": "updateComponent_c - 1",
+			"Test_Value": "True, Wingdings, [Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_71": {
+			"Name": "updateComponent_c - 2",
+			"Test_Value": "True, Wingdings, [Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_72": {
+			"Name": "updateComponent_c - 3",
+			"Test_Value": "True, Wingdings, [Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_73": {
+			"Name": "updateComponent_c - 4",
+			"Test_Value": "True, Wingdings, [Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth",
+			"Result": "Pass"
+		},
+		"TestCase_74": {
+			"Name": "updateComponent_c - 5",
+			"Test_Value": "True, Wingdings, [Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth]",
+			"DB_Value": "True, Wingdings, Dig/Repair Number, Dig Width, Dig Orientation, Dig Depth",
+			"Result": "Pass"
+		}
+	}
+}

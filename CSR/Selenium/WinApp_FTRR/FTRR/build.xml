@@ -1,0 +1,48 @@
+<project default="run">
+	<property name="target" value="1.8" />
+	<property name="source" value="1.8" />
+	<property name="lib.dir" value="lib" />
+	<target name="clean">
+		<delete dir="build"/>
+		<delete dir="dist"/>
+	</target>
+
+   <path id="project.classpath">
+        <pathelement location="${build.dir}"/>
+        <fileset dir="../../Jar_Files">
+            <include name="**/*.jar"/>
+        </fileset>
+   </path>
+	
+	<target name="compile" depends="clean">
+		<mkdir dir="build/classes"/>
+		<javac srcdir="src" destdir="build/classes" includeantruntime="false">
+			<classpath refid="project.classpath"/>
+		</javac>
+	</target>
+
+	<target name="dist_required_jars">
+        <mkdir dir="dist"/>
+		<mkdir dir="dist/lib"/>
+        <copy includeemptydirs="false" todir="dist/lib" flatten="true">
+        	<fileset dir="../../Jar_Files" includes="**/*.jar" excludes="**/*sources.jar, **/*javadoc.jar" />
+        </copy>
+	</target>
+
+	<target name="jar" depends="compile">
+		<mkdir dir="build/jar"/>
+		<jar destfile="build/jar/ftrr.jar" basedir="build/classes">
+			<zipgroupfileset dir="../../Jar_Files" includes="**/*.jar"/>
+			<manifest>
+				<attribute name="Main-Class" value="runner.Main"/>
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="run" depends="jar">
+		<pathconvert property="classpathVar" refid="project.classpath"/>
+		<echo>Classpath: ${classpathVar}</echo>
+		<java jar="build/jar/ftrr.jar" fork="true"/>
+	</target>
+
+</project>

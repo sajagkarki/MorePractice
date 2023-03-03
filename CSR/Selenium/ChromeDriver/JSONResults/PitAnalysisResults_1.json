@@ -1,0 +1,184 @@
+{
+	"Pit Analysis Page - Test 1": {
+		"TestCase_0": {
+			"Name": "pitAnalysis_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "primaryAnalysis_rg",
+			"Test_Value": "SPECIAL",
+			"DB_Value": "SPECIAL",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "displayAnalysis_rg",
+			"Test_Value": "DEEPEST",
+			"DB_Value": "DEEPEST",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "depthGreater_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "topDeepest_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "cleanJoints_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "reviewHandSize_rg",
+			"Test_Value": "TOP_DEEPEST",
+			"DB_Value": "TOP_DEEPEST",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "handSizeGeq_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "handSizeTopDeepest_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "includeAttributeSizing_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "attributeSizingTopW_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "attributeSizingTopL_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "attributeSizingTopN_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "attributeSizingTopS_iwv",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "includeMDSRuns_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "finalAnalysis_rg",
+			"Test_Value": "SPECIAL",
+			"DB_Value": "SPECIAL",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "displayFinalAnalysis_iwc",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "displayFinalAnalysis_tf",
+			"Test_Value": "1",
+			"DB_Value": "1",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "displayFinalAnalysis_iwc",
+			"Test_Value": "True, NOT_EQUAL_TO",
+			"DB_Value": "True, NOT_EQUAL_TO",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "displayFinalAnalysis_iwc - 1",
+			"Test_Value": "True, NOT_EQUAL_TO",
+			"DB_Value": "True, NOT_EQUAL_TO",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "displayFinalAnalysis_cv",
+			"Test_Value": "1",
+			"DB_Value": "1",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "displayFinalAnalysis_cv",
+			"Test_Value": "NOT_EQUAL_TO",
+			"DB_Value": "NOT_EQUAL_TO",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "displayFinalAnalysis_iwc - 1",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "includeAttributeSizing_cb - 1",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_25": {
+			"Name": "attributeSizingTopW_iwv - 1",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_26": {
+			"Name": "attributeSizingTopL_iwv - 1",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_27": {
+			"Name": "attributeSizingTopN_iwv - 1",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_28": {
+			"Name": "attributeSizingTopS_iwv - 1",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_29": {
+			"Name": "includeMDSRuns_cb - 1",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		}
+	}
+}

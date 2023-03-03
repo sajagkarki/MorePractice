@@ -1,0 +1,52 @@
+{
+	"InputName": "Attachments",
+	"FileCounter": 3,
+	"defaultValues": {
+		"includeCB": false,
+		"includeIWVorIWVS": false,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": false,
+		"orientationDescriptionVals": [
+			0,
+			1,
+			1,
+			1,
+			0,
+			1,
+			0,
+			1
+		],
+		"defaultTextValue": "Discord",
+		"dragListSeparatorValues": [
+			1,
+			0,
+			1
+		],
+		"dragListSeparatorOptions": [
+			0,
+			1,
+			1
+		],
+		"defaultRGValues": 0,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"includeOpeningDimensions_cb": false,
+		"roundOrientation_cl": [
+			"Dimensions",
+			"Orientation",
+			"Description"
+		]
+	}
+}

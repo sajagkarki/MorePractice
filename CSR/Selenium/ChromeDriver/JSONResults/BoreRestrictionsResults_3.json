@@ -1,0 +1,22 @@
+{
+	"BoreRestrictions Page - Test 3": {
+		"TestCase_0": {
+			"Name": "reportType_rg",
+			"Test_Value": "DO_NOT_REPORT",
+			"DB_Value": "DO_NOT_REPORT",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "The Moon",
+			"DB_Value": "The Moon",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "examples_ta",
+			"Test_Value": "The Moon",
+			"DB_Value": "The Moon",
+			"Result": "Pass"
+		}
+	}
+}

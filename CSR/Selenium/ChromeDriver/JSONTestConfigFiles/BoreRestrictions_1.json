@@ -1,0 +1,56 @@
+{
+	"InputName": "BoreRestrictions",
+	"FileCounter": 1,
+	"defaultValues": {
+		"includeCB": true,
+		"includeIWVorIWVS": true,
+		"defaultIWVValue": "Hello",
+		"defaultIWVSValue": 0,
+		"defaultSelectValue": 0,
+		"includeOrientationDescription": true,
+		"orientationDescriptionVals": [
+			1,
+			2,
+			0,
+			0,
+			1,
+			0,
+			1,
+			0
+		],
+		"defaultTextValue": "World",
+		"dragListSeparatorValues": [
+			1,
+			0,
+			1,
+			2
+		],
+		"dragListSeparatorOptions": [
+			0,
+			1,
+			2,
+			3
+		],
+		"defaultRGValues": 1,
+		"includeStationing": true,
+		"stationingSelection": 0,
+		"customStationingValue": "Furlongs",
+		"includeSimpleDataSource": true,
+		"simpleDataSourceTextVal": "Wingdings",
+		"CBLVal": [
+			1,
+			1,
+			1
+		]
+	},
+	"uniqueValues": {
+		"includeReportMinSecantBoreDiameter_iwv": true,
+		"bore_cl": [
+			"Minimum Secant",
+			"Minimum Bore",
+			"Default Label",
+			"Reference"
+		]
+		
+	}
+}

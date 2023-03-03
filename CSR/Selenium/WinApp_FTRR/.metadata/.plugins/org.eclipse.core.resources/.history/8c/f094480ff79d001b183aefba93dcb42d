@@ -1,0 +1,25 @@
+package userFunctions;
+
+import org.openqa.selenium.WebElement;
+
+import runner.*;
+
+
+public class OpenRun extends Setup {
+
+	public OpenRun(){
+		OpenExistingRun();
+	}
+	
+	private void OpenNewRun(){
+		WebElement openDD = AppSession.findElementByAccessibilityId("comboBox");
+		openDD.click();
+		AppSession.findElementByName("H10PUL01.fdb").click();
+	}
+	
+	private void OpenExistingRun() {
+		WebElement openDD = AppSession.findElementByAccessibilityId("comboBox");
+		openDD.click();
+		AppSession.findElementByName("H10PUL01.fdb").click();
+	}
+}

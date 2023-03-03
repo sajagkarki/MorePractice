@@ -1,0 +1,190 @@
+{
+	"Markers Page - Test 1": {
+		"TestCase_0": {
+			"Name": "xyzHorizontal_s",
+			"Test_Value": "NAD 83",
+			"DB_Value": "NAD 83",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "xyzVertical_s",
+			"Test_Value": "Orthometric",
+			"DB_Value": "Orthometric",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "markersNearValves_vu",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "markersNearValves_vu",
+			"Test_Value": "True, meters",
+			"DB_Value": "True, meters",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "markersNearLaunch_vu",
+			"Test_Value": "True, 1",
+			"DB_Value": "True, 1.0",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "markersNearLaunch_vu",
+			"Test_Value": "True, meters",
+			"DB_Value": "True, meters",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "includeClassification_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_7": {
+			"Name": "stationingPrefix_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_8": {
+			"Name": "encloseStationing_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_9": {
+			"Name": "omitLocalizationSeparator_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_10": {
+			"Name": "milePosting_iwvs",
+			"Test_Value": "True, KP",
+			"DB_Value": "True, KP",
+			"Result": "Pass"
+		},
+		"TestCase_11": {
+			"Name": "showMarkerBox_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_12": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "Mile Posting, COMMA, AFTER, Marker Type, DASH, BEFORE_AND_AFTER, Localization, AT, BEFORE_AND_AFTER, Correlation Notes, COMMA, NONE, Numbering, COLON, BEFORE_AND_AFTER, Stationing, COMMA, AFTER, Marker Box, DASH, BEFORE",
+			"DB_Value": "Mile Posting, COMMA, AFTER, Marker Type, DASH, BEFORE_AND_AFTER, Localization, AT, BEFORE_AND_AFTER, Correlation Notes, COMMA, NONE, Numbering, COLON, BEFORE_AND_AFTER, Stationing, COMMA, AFTER, Marker Box, DASH, BEFORE",
+			"Result": "Pass"
+		},
+		"TestCase_13": {
+			"Name": "manuallyMarkSurvey_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_14": {
+			"Name": "processType_rg",
+			"Test_Value": "CUSTOM",
+			"DB_Value": "CUSTOM",
+			"Result": "Pass"
+		},
+		"TestCase_15": {
+			"Name": "displayCustomDescription_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_16": {
+			"Name": "processType_rg - 1",
+			"Test_Value": "CUSTOM",
+			"DB_Value": "CUSTOM",
+			"Result": "Pass"
+		},
+		"TestCase_17": {
+			"Name": "displayCustomDescription_ta - 1",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_18": {
+			"Name": "markerNumberingFormat_iwvs",
+			"Test_Value": "True, ###",
+			"DB_Value": "True, ###",
+			"Result": "Pass"
+		},
+		"TestCase_19": {
+			"Name": "stationing_sta",
+			"Test_Value": "True, METRIC, Furlongs, Tracking Sheet, Pipe Listings, Previous Runs",
+			"DB_Value": "True, METRIC, Furlongs, Tracking Sheet, Pipe Listings, Previous Runs",
+			"Result": "Pass"
+		},
+		"TestCase_20": {
+			"Name": "milePosting_mp",
+			"Test_Value": "True, Message, [Previous Runs, Tracking Sheet]",
+			"DB_Value": "True, Message, Previous Runs, Tracking Sheet",
+			"Result": "Pass"
+		},
+		"TestCase_21": {
+			"Name": "markerDescriptionDataSource_ds",
+			"Test_Value": "True, [Previous Runs, Tracking Sheet]",
+			"DB_Value": "True, Previous Runs, Tracking Sheet",
+			"Result": "Pass"
+		},
+		"TestCase_22": {
+			"Name": "propertyWithUpdates_s",
+			"Test_Value": "Add description to Launch and Receiver valves",
+			"DB_Value": "Add description to Launch and Receiver valves",
+			"Result": "Pass"
+		},
+		"TestCase_23": {
+			"Name": "manuallyMarkMissing_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_24": {
+			"Name": "includeMissingMarkersCorrelation_tf",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_25": {
+			"Name": "GPSCoordinates_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_26": {
+			"Name": "gpsFormat_ts",
+			"Test_Value": "Decimal",
+			"DB_Value": "Decimal",
+			"Result": "Pass"
+		},
+		"TestCase_27": {
+			"Name": "gpsSource_ms",
+			"Test_Value": "True, True, True",
+			"DB_Value": "True, True, True",
+			"Result": "Pass"
+		},
+		"TestCase_28": {
+			"Name": "generateKML_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_29": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_30": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

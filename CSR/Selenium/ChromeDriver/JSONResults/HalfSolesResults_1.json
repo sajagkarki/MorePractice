@@ -1,0 +1,46 @@
+{
+	"Half Soles Page - Test 1": {
+		"TestCase_0": {
+			"Name": "reportAsOClock_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "addDimensions_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "includeLabelAfterDimensions_iwv",
+			"Test_Value": "True, Hello",
+			"DB_Value": "True, Hello",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "reportOrientation_s",
+			"Test_Value": "Center",
+			"DB_Value": "Center",
+			"Result": "Pass"
+		},
+		"TestCase_4": {
+			"Name": "componentsOrder_cl",
+			"Test_Value": "O'clock, COLON, AFTER, Dimensions, COLON, AFTER, Label, COLON, AFTER",
+			"DB_Value": "O'clock, COLON, AFTER, Dimensions, COLON, AFTER, Label, COLON, AFTER",
+			"Result": "Pass"
+		},
+		"TestCase_5": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		},
+		"TestCase_6": {
+			"Name": "examples_ta",
+			"Test_Value": "World",
+			"DB_Value": "World",
+			"Result": "Pass"
+		}
+	}
+}

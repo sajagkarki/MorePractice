@@ -1,0 +1,28 @@
+{
+	"Pit Analysis Page - Test 4": {
+		"TestCase_0": {
+			"Name": "pitAnalysis_cb",
+			"Test_Value": "True",
+			"DB_Value": "True",
+			"Result": "Pass"
+		},
+		"TestCase_1": {
+			"Name": "additionalNotes_ta",
+			"Test_Value": "Sphere of Rock",
+			"DB_Value": "Sphere of Rock",
+			"Result": "Pass"
+		},
+		"TestCase_2": {
+			"Name": "primaryAnalysis_rg",
+			"Test_Value": "STANDARD",
+			"DB_Value": "STANDARD",
+			"Result": "Pass"
+		},
+		"TestCase_3": {
+			"Name": "finalAnalysis_rg",
+			"Test_Value": "STANDARD",
+			"DB_Value": "STANDARD",
+			"Result": "Pass"
+		}
+	}
+}
