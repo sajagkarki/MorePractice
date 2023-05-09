@@ -94,7 +94,17 @@ namespace SeleniumAutomation
             }
 
         }
+        public void closeWorkBook() 
+        {
+            try
+            {
+                workbook.Close();
+            }
+            catch
+            {
 
+            }
+        }
         public List<TestCases> GetTestCases()
         {
             List<TestCases> testCases = new List<TestCases>();

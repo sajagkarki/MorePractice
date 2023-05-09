@@ -12,7 +12,7 @@ namespace SeleniumAutomation
         public string Action { get; set; }
         public string Value { get; set; }
         public string IsRun { get; set; }
-        public bool  IsPassed{ get; set; }
+        public bool  IsPassed { get; set; }
         public string ActualValue{ get; set; }
     }
 }

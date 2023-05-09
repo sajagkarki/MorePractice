@@ -12,6 +12,7 @@ namespace SeleniumAutomation
     public class MyDriver
     {
         public WebDriver Driver;
+        
         //See changes in git after adding this comment. 
         public IWebElement GetWebElement(TestCases testCases,int count=0)
         {
@@ -23,6 +24,7 @@ namespace SeleniumAutomation
                     
                     return webElement;
                     
+
                 }
 
                 if ("xpath".Equals(testCases.LocatorType, StringComparison.OrdinalIgnoreCase))
@@ -67,15 +69,16 @@ namespace SeleniumAutomation
 
         public void Exceute(TestCases testCases)
         {
+            string mainWindow = ""; 
             try
             {
                 testCases.IsPassed = true;
                 if ("openbrowser".Equals(testCases.Action, StringComparison.OrdinalIgnoreCase))
                 {
-                    Driver = new ChromeDriver();
-                   
+                   Driver = new ChromeDriver();
+                    mainWindow = Driver.CurrentWindowHandle; 
                 }
-                else if ("openbrowserIE".Equals(testCases.Action, StringComparison.OrdinalIgnoreCase))
+                else if ("openbrowserEdge".Equals(testCases.Action, StringComparison.OrdinalIgnoreCase))
                 {
                     Driver = new EdgeDriver();
 
@@ -197,6 +200,19 @@ namespace SeleniumAutomation
                     Thread.Sleep(2000);
 
                 }
+                else if ("switchWindow".Equals(testCases.Action, StringComparison.OrdinalIgnoreCase))
+                {
+                    foreach (string handle in Driver.WindowHandles)
+                    {
+                        if (handle != mainWindow)
+                        {
+                            Driver.SwitchTo().Window(handle);
+                            break;
+                        }
+                    }
+
+                }
+
             }
             catch (Exception ex)
             {
