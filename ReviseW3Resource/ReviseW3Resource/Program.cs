@@ -117,12 +117,40 @@
 
 //    Console.WriteLine("You look older than 20");
 
+/*12.Write a C# program to that takes a number as input and display it four times in 
+ * a row (separated by blank spaces), and then four times in the next row, with no separation. 
+ * You should do it two times: Use Console. Write and then use {0}. Go to the editor
+Test Data:
+Enter a digit: 25
+Expected Output:
+25 25 25 25
+25252525
+25 25 25 25
+25252525
+*/
+//Arrage
+//Console.WriteLine= ("Enter a number")
+//var exerciseTwelve = int.Parse(Console.ReadLine());
+////Act
+//for (int i = 1; i <4 ; i++)
+//{
+//    Console.WriteLine(exerciseTwelve);
+//}
+//for (int i = 1; int i <=4; int i++)
+//{
+//    Console.Write(exerciseTwelve)
+//}
+
+//Assert
+
+
 //13. Write a C# program that takes a number as input and then displays a rectangle of 3 columns wide and 5 rows tall using that digit.
 //333
 //3 3
 //3 3
 //3 3
 //333
+
 
 //Console.WriteLine("Enter your number");
 //int exerciseThirteen = int.Parse(Console.ReadLine());
@@ -139,15 +167,39 @@
 
 //14. Write a C# program to convert from celsius degrees to Kelvin and Fahrenheit. 
 
+
+
 //Console.WriteLine("Enter your number in celsius");
 //int userInputCelcius= int.Parse(Console.ReadLine());
 
 //formula multiply by 1.8 & add 32  (userInput*1.8)+ 32
 //int toFahrenheit = userInputCelcius * 9 / 5 + 32;
-
+//int converttoKelvin= celciusDegrees+273
 //Console.WriteLine($"{userInputCelcius} degrees celcius equals {toFahrenheit}");
 
-//15. Write a C# program remove specified a character from a non-empty string using index of a character. 
+//15. Write a C# program to remove specified a character from a non-empty
+//string using index of a character. 
+
+//Arrange
+//string exerciseFifteen = "hello";
+////Act
+//Console.WriteLine(exerciseFifteen[1]);
+////Assert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Create string
 //Console.WriteLine("Enter a word");
 //string exerciseFifteen = Console.ReadLine();
@@ -160,9 +212,41 @@
 //string result = exerciseFifteen.Remove(indexOfCharacterToRemove,1);
 //Console.WriteLine(result);
 
-//16.Write a C# program to create a new string from a given string where the first and last characters will change their positions.
+//16.Write a C# program to create a new string from a given string where the first and last
+//characters will change their positions.
+//Test Data:
+//w3resource
+//Python
+//Sample Output:
+//e3resourcw
+//nythoP
+
+//Arrange
+//string exerciseSixteen= "hello";
+//var temp;
+
+////Act
+//exerciseSixteen[0] = temp; 
+//exerciseSixteen[exerciseSixteen.Length - 1] = exerciseSixteen[0];
+//temp= exerciseSixteen[exerciseSixteen.Length-1]
+
+//Console.WriteLine(temp);
+
+//Assert
+
+
+
+
+
+
+
+
+
+
+
 //Step 1 crete string variable
 //string exerciseSixteen = "malt";
+
 
 ////Solve manually
 //char firstCharacter= exerciseSixteen[0];
@@ -171,7 +255,10 @@
 //string newString = $"{lastCharacter}{exerciseSixteen.Substring(1,exerciseSixteen.Length-2)}{firstCharacter}";
 //Console.WriteLine(newString);
 
-//17.Write a C# program to create a new string from a given string (length 1 or more ) with the first character added at the front and back.
+//17.Write a C# program to create a new string from a given string (length 1 or more ) with the
+//first character added at the front and back.
+
+
 //Step 1 read & understand question
 //Step 2 Create string
 //string exerciseSeventeen = "L"; 
@@ -190,6 +277,35 @@
 //}
 
 //18. Write a C# program to check two given integers and return true if one is negative and one is positive.
+
+//Arrange
+var firstNumber = -2; 
+var secondNumber = 3;
+
+//Act
+if ((firstNumber>0 && secondNumber<0) ||(firstNumber<0 && secondNumber>0))
+{
+    Console.WriteLine("True");
+}
+else
+{
+    Console.WriteLine("False");
+}
+//Assert
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Step 1 Read & understand question
 //Step 2 Create two integers
 //int exerciseEighteenOne = 4; 
